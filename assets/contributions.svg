@@ -16,9 +16,9 @@
   <rect x="0.5" y="0.5" width="999" height="179" rx="12" fill="#0d1117" stroke="#30363d" />
   <rect x="0" y="0" width="5" height="180" rx="3" fill="url(#accent)" />
   <text x="24" y="35" class="title">Atividade pública · últimos 12 meses</text>
-  <text x="28" y="80" class="value">28</text>
+  <text x="28" y="80" class="value">29</text>
   <text x="28" y="100" class="label">commits públicos</text>
-  <text x="28" y="137" class="label"><tspan style="fill:#e6edf3;font-weight:700">0 dias</tspan> · sequência atual</text>
+  <text x="28" y="137" class="label"><tspan style="fill:#e6edf3;font-weight:700">1 dias</tspan> · sequência atual</text>
   <text x="28" y="158" class="label"><tspan style="fill:#e6edf3;font-weight:700">4 dias</tspan> · maior sequência</text>
   <rect x="250" y="60" width="10" height="10" rx="2" fill="#161b22"><title>2025-08-24: 0 commit(s)</title></rect>
   <rect x="250" y="73" width="10" height="10" rx="2" fill="#161b22"><title>2025-08-25: 0 commit(s)</title></rect>
@@ -389,7 +389,7 @@
   <rect x="926" y="86" width="10" height="10" rx="2" fill="#161b22"><title>2026-08-25: 0 commit(s)</title></rect>
   <rect x="926" y="99" width="10" height="10" rx="2" fill="#161b22"><title>2026-08-26: 0 commit(s)</title></rect>
   <rect x="926" y="112" width="10" height="10" rx="2" fill="#161b22"><title>2026-08-27: 0 commit(s)</title></rect>
-  <rect x="926" y="125" width="10" height="10" rx="2" fill="#161b22"><title>2026-08-28: 0 commit(s)</title></rect>
+  <rect x="926" y="125" width="10" height="10" rx="2" fill="#083344"><title>2026-08-28: 1 commit(s)</title></rect>
   <rect x="926" y="138" width="10" height="10" rx="2" fill="#161b22"><title>2026-08-29: 0 commit(s)</title></rect>
   <text x="965" y="163" text-anchor="end" class="small">menos  ■ ■ ■ ■ ■  mais</text>
 </svg>
