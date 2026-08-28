@@ -130,6 +130,19 @@ Coleção de receitas organizada em cards, páginas individuais e navegação in
 - Criando interfaces mais completas com React e TypeScript
 - Transformando projetos de estudo em produtos bem documentados e publicáveis
 
+## 🤝 Vamos conectar
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/icaroferreirafranca">
+  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+</a>
+<a href="https://github.com/IcaroFranca">
+  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+
+</div>
+
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:06B6D4,100:0E7490&height=120&section=footer" alt="" />
