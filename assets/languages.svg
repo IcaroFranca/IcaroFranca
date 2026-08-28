@@ -18,27 +18,27 @@
   <text x="24" y="35" class="title">Linguagens mais usadas</text>
   <circle cx="29" cy="61" r="5" fill="#22d3ee" />
   <text x="42" y="65" class="label" style="fill:#e6edf3;font-weight:600">Java</text>
-  <text x="465" y="65" text-anchor="end" class="label">80.2%</text>
+  <text x="465" y="65" text-anchor="end" class="label">78.9%</text>
   <rect x="145" y="55" width="250" height="7" rx="3.5" fill="#161b22" />
   <rect x="145" y="55" width="250" height="7" rx="3.5" fill="#22d3ee" />
   <circle cx="29" cy="86" r="5" fill="#06b6d4" />
   <text x="42" y="90" class="label" style="fill:#e6edf3;font-weight:600">HTML</text>
-  <text x="465" y="90" text-anchor="end" class="label">13.3%</text>
+  <text x="465" y="90" text-anchor="end" class="label">13.0%</text>
   <rect x="145" y="80" width="250" height="7" rx="3.5" fill="#161b22" />
   <rect x="145" y="80" width="41" height="7" rx="3.5" fill="#06b6d4" />
   <circle cx="29" cy="111" r="5" fill="#0891b2" />
   <text x="42" y="115" class="label" style="fill:#e6edf3;font-weight:600">CSS</text>
-  <text x="465" y="115" text-anchor="end" class="label">4.7%</text>
+  <text x="465" y="115" text-anchor="end" class="label">4.6%</text>
   <rect x="145" y="105" width="250" height="7" rx="3.5" fill="#161b22" />
   <rect x="145" y="105" width="15" height="7" rx="3.5" fill="#0891b2" />
   <circle cx="29" cy="136" r="5" fill="#155e75" />
-  <text x="42" y="140" class="label" style="fill:#e6edf3;font-weight:600">JavaScript</text>
-  <text x="465" y="140" text-anchor="end" class="label">1.4%</text>
+  <text x="42" y="140" class="label" style="fill:#e6edf3;font-weight:600">Python</text>
+  <text x="465" y="140" text-anchor="end" class="label">1.7%</text>
   <rect x="145" y="130" width="250" height="7" rx="3.5" fill="#161b22" />
-  <rect x="145" y="130" width="4" height="7" rx="3.5" fill="#155e75" />
+  <rect x="145" y="130" width="5" height="7" rx="3.5" fill="#155e75" />
   <circle cx="29" cy="161" r="5" fill="#164e63" />
-  <text x="42" y="165" class="label" style="fill:#e6edf3;font-weight:600">TypeScript</text>
-  <text x="465" y="165" text-anchor="end" class="label">0.4%</text>
+  <text x="42" y="165" class="label" style="fill:#e6edf3;font-weight:600">JavaScript</text>
+  <text x="465" y="165" text-anchor="end" class="label">1.4%</text>
   <rect x="145" y="155" width="250" height="7" rx="3.5" fill="#161b22" />
   <rect x="145" y="155" width="4" height="7" rx="3.5" fill="#164e63" />
 </svg>
