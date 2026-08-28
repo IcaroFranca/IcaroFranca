@@ -148,6 +148,75 @@ def language_card(language_bytes: Counter[str]) -> str:
     return svg_shell(495, 190, "\n".join(rows), "Linguagens mais usadas")
 
 
+def flexibase_activity_card() -> str:
+    """Render the authenticated Flexibase activity snapshot collected locally."""
+    commits = 239
+    pull_requests = 112
+    code_reviews = 0
+    issues = 0
+    systems = 7
+    total = commits + pull_requests + code_reviews + issues
+    maximum = max(commits, pull_requests, code_reviews, issues, 1)
+    center_x, center_y, radius = 750, 145, 90
+
+    points = [
+        (center_x, center_y - radius * code_reviews / maximum),
+        (center_x + radius * issues / maximum, center_y),
+        (center_x, center_y + radius * pull_requests / maximum),
+        (center_x - radius * commits / maximum, center_y),
+    ]
+    polygon = " ".join(f"{x:.1f},{y:.1f}" for x, y in points)
+    commit_share = round(commits / total * 100)
+    pr_share = round(pull_requests / total * 100)
+
+    rows = [
+        '  <text x="24" y="35" class="title">Atuação na Flexibase · últimos 12 meses</text>',
+        '  <rect x="24" y="52" width="215" height="31" rx="7" fill="#161b22" stroke="#30363d" />',
+        '  <circle cx="42" cy="67.5" r="10" fill="url(#accent)" />',
+        '  <text x="42" y="72" text-anchor="middle" style="fill:#ffffff;font:700 12px Segoe UI,Ubuntu,sans-serif">F</text>',
+        '  <text x="59" y="72" style="fill:#e6edf3;font:600 13px Segoe UI,Ubuntu,sans-serif">@Flexibase-Projects</text>',
+        f'  <text x="24" y="128" class="value">{total}</text>',
+        '  <text x="24" y="148" class="label">atividades localizadas</text>',
+        f'  <text x="24" y="184" style="fill:#e6edf3;font:700 16px Segoe UI,Ubuntu,sans-serif">{commits}</text>',
+        '  <text x="63" y="184" class="label">commits</text>',
+        f'  <text x="150" y="184" style="fill:#e6edf3;font:700 16px Segoe UI,Ubuntu,sans-serif">{pull_requests}</text>',
+        '  <text x="188" y="184" class="label">pull requests</text>',
+        f'  <text x="322" y="184" style="fill:#e6edf3;font:700 16px Segoe UI,Ubuntu,sans-serif">{systems}</text>',
+        '  <text x="339" y="184" class="label">sistemas</text>',
+        '  <text x="24" y="222" class="small">Maior atuação: Portal de Chamados e SGQ</text>',
+        '  <text x="24" y="244" class="small">Também: PDF · SGE · DASH · TPM · FoccoAPI</text>',
+        '  <text x="24" y="264" class="small">Snapshot autenticado em 28 ago 2026</text>',
+        '  <line x1="470" y1="28" x2="470" y2="252" stroke="#30363d" />',
+    ]
+
+    for fraction in (0.25, 0.5, 0.75, 1.0):
+        r = radius * fraction
+        ring = (
+            f"{center_x},{center_y-r:.1f} "
+            f"{center_x+r:.1f},{center_y} "
+            f"{center_x},{center_y+r:.1f} "
+            f"{center_x-r:.1f},{center_y}"
+        )
+        rows.append(f'  <polygon points="{ring}" fill="none" stroke="#21262d" stroke-width="1" />')
+
+    rows.extend(
+        [
+            f'  <line x1="{center_x}" y1="{center_y-radius}" x2="{center_x}" y2="{center_y+radius}" stroke="#30363d" />',
+            f'  <line x1="{center_x-radius}" y1="{center_y}" x2="{center_x+radius}" y2="{center_y}" stroke="#30363d" />',
+            f'  <polygon points="{polygon}" fill="#22d3ee" fill-opacity="0.28" stroke="#22d3ee" stroke-width="2" />',
+            *[
+                f'  <circle cx="{x:.1f}" cy="{y:.1f}" r="4" fill="#e6edf3" stroke="#22d3ee" stroke-width="2" />'
+                for x, y in points
+            ],
+            f'  <text x="{center_x}" y="34" text-anchor="middle" class="label">{round(code_reviews / total * 100)}% · Code review</text>',
+            f'  <text x="940" y="150" text-anchor="end" class="label">Issues · {round(issues / total * 100)}%</text>',
+            f'  <text x="{center_x}" y="267" text-anchor="middle" class="label">{pr_share}% · Pull requests</text>',
+            f'  <text x="555" y="150" class="label">{commit_share}% · Commits</text>',
+        ]
+    )
+    return svg_shell(1000, 280, "\n".join(rows), "Atividade de desenvolvimento na Flexibase")
+
+
 def streaks(day_counts: Counter[date], today: date) -> tuple[int, int]:
     days = [today - timedelta(days=offset) for offset in range(365, -1, -1)]
     longest = current_run = 0
@@ -247,7 +316,8 @@ def main() -> int:
     write_svg("github-overview.svg", overview_card(profile, repositories, sum(day_counts.values())))
     write_svg("languages.svg", language_card(language_bytes))
     write_svg("contributions.svg", contribution_card(day_counts))
-    print(f"Generated 3 cards for {USERNAME} from {len(repositories)} public repositories.")
+    write_svg("flexibase-activity.svg", flexibase_activity_card())
+    print(f"Generated 4 cards for {USERNAME} from {len(repositories)} public repositories.")
     return 0
 
 
