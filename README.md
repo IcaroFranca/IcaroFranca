@@ -17,13 +17,9 @@ Desenvolvedor júnior com experiência prática em **produtos internos, dashboar
 - Na indústria, trabalho conectando interface, APIs, dados, autenticação e entrega.
 - Sou júnior e busco crescer compreendendo o produto inteiro, não apenas a tarefa isolada.
 
-## 🧰 Tecnologias
+## 🧰 Tecnologias por área
 
-<img width="100%" src="assets/technology-loop.svg" alt="Tecnologias utilizadas por Icaro entre interface, APIs, dados e entrega" />
-
-- **Interface:** React, TypeScript, JavaScript, HTML e CSS.
-- **Backend e dados:** Node.js, Express, Java, Supabase, PostgreSQL, SQLite e Oracle.
-- **Entrega:** Git, GitHub Actions, Docker, GHCR, testes e deploy blue-green.
+<img width="100%" src="assets/stack-by-area.svg" alt="Stack de Icaro dividida entre frontend, backend e APIs, dados, integrações e entrega" />
 
 ## 🏢 Experiência na indústria
 
