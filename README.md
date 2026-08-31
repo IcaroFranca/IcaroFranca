@@ -6,165 +6,75 @@
 
 Desenvolvedor júnior com experiência prática em **produtos internos, dashboards, integrações e software em produção**.
 
-[LinkedIn](https://www.linkedin.com/in/icaroferreirafranca) · [Projetos pessoais](#projetos-pessoais) · [Atuação na Flexibase](#produtos-e-integrações-na-flexibase)
+[LinkedIn](https://www.linkedin.com/in/icaroferreirafranca) · [Projetos pessoais](#-projetos-pessoais) · [Flexibase](#-experiência-na-flexibase)
 
 </div>
 
----
+## 🧭 Em poucas linhas
 
-## 🧭 Minha trajetória, em contexto
+- Formado em **Big Data e Inteligência Artificial** pela PUC Goiás, *magna cum laude*.
+- Evoluí de projetos em HTML e JavaScript para aplicações React, sistemas Java e produtos corporativos.
+- Na Flexibase, trabalho conectando interface, APIs, dados, autenticação e entrega.
+- Sou júnior e busco crescer compreendendo o produto inteiro, não apenas a tarefa isolada.
 
-Não comecei por uma stack pronta. Comecei entendendo a base e fui adicionando camadas: páginas estáticas, JavaScript, consumo de APIs, componentes React, sistemas Java e, depois, produtos corporativos conectados a dados reais.
+## 🏢 Experiência na Flexibase
 
-| Etapa | O que construí | O que levei para a próxima fase |
-|---|---|---|
-| **Fundamentos web** | Currículo HTML, páginas de conteúdo e o Icarus Recipes | Semântica, CSS, responsividade e publicação |
-| **Aplicações e APIs** | Busca CEP e React Commerce | Componentização, estados de interface, TypeScript e integração REST |
-| **Arquitetura em Java** | NexusRPG para Paper/Spigot | Domínios, módulos, regras de negócio, Maven e integração contínua |
-| **Software em produção** | Produtos e integrações da Flexibase | Autenticação, dados, auditoria, CI/CD, deploy e evolução orientada pela operação |
+> Os repositórios corporativos são privados. Os resumos abaixo preservam código, dados e regras internas.
 
-Hoje conduzo minha evolução profissional conectando **interface, regra de negócio, dados e entrega**. Meu grau de senioridade é júnior; minha responsabilidade, porém, já inclui acompanhar problemas do entendimento até a produção.
+<img width="100%" src="assets/ecosystem-map.svg" alt="Mapa das contribuições de Icaro no ecossistema de sistemas da Flexibase" />
 
-### 🎓 Formação que sustenta essa evolução
+### 📊 DASH
 
-- **Tecnologia em Big Data e Inteligência Artificial** — PUC Goiás, 2023–2025, conclusão *magna cum laude*.
-- Formação complementar em **Git, SQL, lógica de programação e Java orientado a objetos**.
-- **Inglês avançado** para leitura técnica e comunicação profissional.
+Atuação forte na experiência financeira: **Modo Auditoria**, certificação de indicadores, evidências, histórico, alertas e visões como DRE e balanço patrimonial. Também trabalhei na integração e reconciliação de dados reais do ERP.
 
-## 🏢 Produtos e integrações na Flexibase
+`React 19` `TypeScript` `Supabase` `Auditoria` `Dados financeiros`
 
-> Os repositórios corporativos são privados. As descrições abaixo apresentam minha participação e o contexto técnico sem expor código, credenciais, dados ou regras sensíveis da empresa.
+### 🔗 FoccoAPI
 
-<img width="100%" src="assets/ecosystem-map.svg" alt="Mapa das contribuições de Ícaro no ecossistema de sistemas da Flexibase" />
+Usei a API como ponte read-only entre o FoccoERP e produtos como DASH e SGQ. Minha participação se concentrou no **consumo seguro, contratos, filtros e reconciliação**, evitando acesso direto do navegador ao Oracle.
 
-### 📊 DASH — indicadores que podem ser investigados
+`TypeScript` `REST` `Oracle` `Read-only` `Integração ERP`
 
-O DASH é uma plataforma de dashboards variáveis. Minha contribuição foi especialmente forte na experiência financeira e na transformação de números isolados em indicadores que podem ser conferidos, explicados e acompanhados.
+### 🧭 SGQ
 
-**Onde atuei**
+Contribuí em fluxos de qualidade, não conformidades, manutenção, documentos, auditoria, kanbans e indicadores, além de permissões pelo SSO e integrações com dados do Focco.
 
-- Evolução do **Modo Auditoria** em cards, gráficos, tabelas e detalhamentos.
-- Fluxos de certificação com permissões, evidências, comentários, pendências e histórico.
-- Regras e alertas para apoiar a leitura de riscos financeiros.
-- Construção e evolução de visões como DRE, balanço patrimonial e indicadores no AIR.
-- Integração dos dashboards com dados reais do ERP por meio da FoccoAPI, mantendo credenciais fora do cliente e contratos de consulta controlados.
-- Testes de reconciliação para diferenciar erro visual, regra de indicador e divergência na fonte.
+`React` `Node.js` `Express` `SQLite` `SSO` `RBAC`
 
-`React 19` `TypeScript` `Vite` `Supabase` `Auditoria` `Dados financeiros`
+### 🎫 Portal de Chamados
 
-### 🔗 FoccoAPI — o ERP como fonte, sem acoplamento direto
+Participei da construção de templates configuráveis, campos condicionais, dashboards, SLA, timeline e permissões por departamento, acompanhando também autenticação e publicação.
 
-Minha principal contribuição relacionada à FoccoAPI está no **uso da API como camada de integração**. Em vez de colocar regras e consultas ao ERP dentro de cada tela, trabalhei com contratos read-only que permitem ao DASH e ao SGQ consumir dados corporativos de maneira mais segura e previsível.
+`React` `TypeScript` `Supabase` `Docker` `SSO`
 
-**Na prática, isso envolveu**
-
-- Consumo de endpoints financeiros e operacionais com filtros explícitos.
-- Integração via proxy seguro, sem expor chaves ou o banco Oracle ao navegador.
-- Separação entre a apresentação do indicador, sua regra de cálculo e sua fonte de referência.
-- Reconciliação de períodos e totais antes de tratar um dado como confiável no dashboard.
-- Uso da integração em cenários de clientes, pedidos, itens, histórico e análises financeiras.
-- Validação do comportamento sem substituir silenciosamente dados reais por valores simulados.
-
-`TypeScript` `REST` `Oracle` `Read-only` `Contratos` `Integração ERP`
-
-### 🧭 SGQ — qualidade e manutenção em um fluxo contínuo
-
-No Sistema de Gestão da Qualidade, participei de uma evolução ampla do produto. O sistema reúne ocorrências, não conformidades, manutenções de clientes, controle documental, certificações, processos, POPs, auditorias e painéis operacionais.
-
-**Minhas frentes de contribuição**
-
-- Fluxos de triagem, atribuição, tratamento, evidências e verificação de eficácia.
-- Kanbans, timelines, indicadores, automações e registros de auditoria.
-- Perfis e permissões integrados ao SSO corporativo, com validação também na API.
-- Integrações com dados do Focco para evitar cadastros duplicados e dar contexto à operação.
-- Estabilidade, testes, documentação e preparação de entregas para produção.
-
-`React 19` `TypeScript` `Node.js` `Express` `SQLite` `SSO` `RBAC`
-
-### 🎫 Portal de Chamados — atendimento configurável por área
-
-Participei da construção e evolução de uma plataforma interna de atendimento, criada para substituir fluxos fragmentados por solicitações rastreáveis e configuráveis por departamento.
-
-**Minhas frentes de contribuição**
-
-- Templates de chamados com campos condicionais e edição visual.
-- Dashboards, filtros, respostas, timeline, SLA e experiência administrativa.
-- Gestão de usuários e permissões granulares por departamento.
-- Integração ao SSO Flexibase e persistência no Supabase/PostgreSQL.
-- Responsividade, padronização visual e publicação em containers.
-
-`React` `TypeScript` `Node.js` `Express` `Supabase` `Docker`
-
-## Outras participações no ecossistema
-
-Nem sempre fui o responsável principal pelo produto. Também contribuí em sistemas existentes, entendendo o contexto da equipe e entregando melhorias específicas.
+### Outras participações no ecossistema
 
 | Sistema | Contexto da minha participação |
 |---|---|
-| **PDF** | Integração ao SSO, preparação para deploy blue-green, documentação de produção e alinhamento de interface |
-| **SGE** | Pipeline de publicação, preparação para produção e correções relacionadas ao ambiente Supabase |
-| **TPM** | Evolução do painel de solicitações de manutenção e apoio ao processo de publicação |
-| **CDT** | Correções de estabilidade no frontend e em fluxos de conclusão de tarefas |
-| **SSO** | Participação em iniciativas de acesso e provisionamento dentro do ecossistema corporativo |
-| **MKTMAIL** | Preparação do sistema interno para o padrão de publicação da infraestrutura Flexibase |
+| **PDF** | SSO, deploy blue-green, documentação e interface |
+| **SGE** | Pipeline de publicação, produção e ambiente Supabase |
+| **TPM** | Painel de manutenção e apoio à publicação |
+| **CDT** | Estabilidade do frontend e fluxos de tarefas |
+| **SSO** | Acesso e provisionamento entre aplicações |
+| **MKTMAIL** | Adequação ao padrão de infraestrutura da Flexibase |
 
 ## 🧪 Projetos pessoais
 
-Meus projetos públicos não competem com a experiência corporativa: eles mostram **como cheguei até ela** e onde continuo experimentando com liberdade.
-
-### ⚔️ [NexusRPG](https://github.com/IcaroFranca/PluginRPGMinecraft)
-
-Plugin modular de RPG para servidores Paper/Spigot. É o projeto pessoal em que mais exercitei organização de domínio e regras de negócio.
-
-- Árvore de combate com 19 habilidades e progressão por tiers.
-- Sistemas de combate, bestiário, economia, mineração, loja e atributos.
-- Suporte a múltiplos idiomas e configuração por módulos.
-- Build e validações automatizadas no GitHub Actions.
-
-`Java` `Maven` `Paper API` `Spigot` `CI`
-
-### 🛒 [React Commerce](https://github.com/IcaroFranca/ProjetoReactCommerce)
-
-Experiência de e-commerce criada para aprofundar componentes reutilizáveis, estados de interface, TypeScript e responsividade.
-
-`React 19` `TypeScript` `Vite` `CSS`
-
-### 📍 [Busca CEP](https://github.com/IcaroFranca/ProjetoBuscaCEP)
-
-Aplicação de consulta de endereços que marcou minha evolução no consumo de APIs e na separação entre modelos, serviços e controllers.
-
-`JavaScript` `REST API` `HTML` `CSS`
-
-### 🍲 [Icarus Recipes](https://icarofranca.github.io/ProjetoReceitas)
-
-Site editorial de receitas publicado no GitHub Pages. Consolidou fundamentos de semântica, composição visual e responsividade.
-
-`HTML` `CSS` `GitHub Pages`
-
-### 📄 [Currículo HTML](https://github.com/IcaroFranca/ProjetoCurriculoHTML)
-
-Um currículo semântico, publicável e legível por pessoas e ferramentas de seleção. Foi um dos primeiros passos conscientes da minha presença profissional na web.
-
-`HTML` `Semântica` `SEO` `ATS`
-
-## 🧰 Tecnologias, pelo papel que cumprem
-
-<img width="100%" src="assets/technology-loop.svg" alt="Tecnologias utilizadas por Icaro, organizadas entre interface, APIs, dados e entrega" />
-
-| Camada | Ferramentas e conhecimentos |
+| Projeto | O que representa na minha evolução |
 |---|---|
-| **Interfaces e produto** | React, TypeScript, JavaScript, Vite, HTML e CSS |
-| **APIs e regras de negócio** | Node.js, Express, APIs REST e Java |
-| **Dados e integrações** | Supabase, PostgreSQL, SQLite, Oracle e FoccoAPI |
-| **Identidade e segurança** | SSO, OIDC, RBAC e contratos read-only |
-| **Entrega e operação** | Git, GitHub Actions, Docker, GHCR, testes e deploy blue-green |
+| ⚔️ **[NexusRPG](https://github.com/IcaroFranca/PluginRPGMinecraft)** | Sistema modular em Java com combate, habilidades, economia, internacionalização e CI |
+| 🛒 **[React Commerce](https://github.com/IcaroFranca/ProjetoReactCommerce)** | Componentes reutilizáveis, TypeScript, estado e responsividade |
+| 📍 **[Busca CEP](https://github.com/IcaroFranca/ProjetoBuscaCEP)** | Consumo de API e separação entre models, services e controllers |
+| 🍲 **[Icarus Recipes](https://icarofranca.github.io/ProjetoReceitas)** | Semântica, composição visual, CSS e GitHub Pages |
+| 📄 **[Currículo HTML](https://github.com/IcaroFranca/ProjetoCurriculoHTML)** | Primeiro projeto profissional publicável, compatível com leitura ATS |
 
-## 🎯 O que procuro desenvolver agora
+## 🧰 Tecnologias
 
-- Aprofundar arquitetura backend e modelagem de dados.
-- Tornar integrações e indicadores cada vez mais observáveis e testáveis.
-- Evoluir de executor de tarefas para alguém capaz de compreender o produto inteiro.
-- Continuar construindo software útil, com contexto e responsabilidade.
+<img width="100%" src="assets/technology-loop.svg" alt="Tecnologias utilizadas por Icaro entre interface, APIs, dados e entrega" />
+
+- **Interface:** React, TypeScript, JavaScript, HTML e CSS.
+- **Backend e dados:** Node.js, Express, Java, Supabase, PostgreSQL, SQLite e Oracle.
+- **Entrega:** Git, GitHub Actions, Docker, GHCR, testes e deploy blue-green.
 
 ---
 
