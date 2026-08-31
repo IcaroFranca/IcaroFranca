@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa de atuação no ecossistema Flexibase</title>
+  <desc id="desc">DASH, FoccoAPI, SGQ e Portal de Chamados como contribuições principais de Icaro, conectados a outros produtos internos</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" x2="1">
+      <stop offset="0" stop-color="#071a1f"/>
+      <stop offset="1" stop-color="#0c252b"/>
+    </linearGradient>
+    <style>
+      .kicker { font: 600 11px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 2px; fill: #25c4c7; }
+      .heading { font: 700 24px 'Segoe UI', Ubuntu, sans-serif; fill: #f3f1e9; }
+      .label { font: 700 15px 'Segoe UI', Ubuntu, sans-serif; fill: #f3f1e9; }
+      .small { font: 400 11px 'Segoe UI', Ubuntu, sans-serif; fill: #9ab0b2; }
+      .chip { font: 600 10px 'Segoe UI', Ubuntu, sans-serif; fill: #071a1f; }
+      .minor { font: 600 11px 'Segoe UI', Ubuntu, sans-serif; fill: #b8c9ca; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="429" rx="16" fill="url(#panel)" stroke="#25464c"/>
+  <text class="kicker" x="40" y="42">MAPA DE ATUAÇÃO · FLEXIBASE</text>
+  <text class="heading" x="40" y="76">Produtos diferentes, uma experiência conectada.</text>
+  <text class="small" x="40" y="100">As conexões representam frentes de trabalho — não o tráfego ou a arquitetura interna dos sistemas.</text>
+
+  <g fill="none" stroke="#3b5d62" stroke-width="1.5">
+    <path d="M600 220 C500 220 478 159 382 159"/>
+    <path d="M600 220 C500 220 478 298 382 298"/>
+    <path d="M600 220 C700 220 722 159 818 159"/>
+    <path d="M600 220 C700 220 722 298 818 298"/>
+  </g>
+  <g fill="none" stroke="#f2b84b" stroke-opacity="0.55" stroke-dasharray="5 7">
+    <path d="M270 159 C210 159 210 370 130 370"/>
+    <path d="M270 298 C230 298 230 370 310 370"/>
+    <path d="M930 159 C970 159 970 370 890 370"/>
+    <path d="M930 298 C990 298 990 370 1070 370"/>
+  </g>
+
+  <g transform="translate(525 145)">
+    <rect width="150" height="150" rx="75" fill="#0b3037" stroke="#25c4c7" stroke-width="2"/>
+    <circle cx="75" cy="75" r="56" fill="none" stroke="#25c4c7" stroke-opacity="0.24"/>
+    <text x="75" y="68" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="34" font-weight="300" fill="#25c4c7">IF</text>
+    <text class="small" x="75" y="91" text-anchor="middle">produto + código</text>
+  </g>
+
+  <g transform="translate(250 120)">
+    <rect width="180" height="78" rx="10" fill="#0e3037" stroke="#25c4c7"/>
+    <rect x="15" y="14" width="45" height="18" rx="9" fill="#25c4c7"/>
+    <text class="chip" x="37.5" y="27" text-anchor="middle">DADOS</text>
+    <text class="label" x="15" y="53">DASH</text>
+    <text class="small" x="15" y="69">auditoria · financeiro · AIR</text>
+  </g>
+  <g transform="translate(250 259)">
+    <rect width="180" height="78" rx="10" fill="#0e3037" stroke="#25c4c7"/>
+    <rect x="15" y="14" width="74" height="18" rx="9" fill="#25c4c7"/>
+    <text class="chip" x="52" y="27" text-anchor="middle">INTEGRAÇÃO</text>
+    <text class="label" x="15" y="53">FoccoAPI</text>
+    <text class="small" x="15" y="69">ERP · contratos · reconciliação</text>
+  </g>
+  <g transform="translate(770 120)">
+    <rect width="180" height="78" rx="10" fill="#0e3037" stroke="#f2b84b"/>
+    <rect x="15" y="14" width="61" height="18" rx="9" fill="#f2b84b"/>
+    <text class="chip" x="45.5" y="27" text-anchor="middle">PRODUTO</text>
+    <text class="label" x="15" y="53">SGQ</text>
+    <text class="small" x="15" y="69">qualidade · manutenção · fluxos</text>
+  </g>
+  <g transform="translate(770 259)">
+    <rect width="180" height="78" rx="10" fill="#0e3037" stroke="#f2b84b"/>
+    <rect x="15" y="14" width="61" height="18" rx="9" fill="#f2b84b"/>
+    <text class="chip" x="45.5" y="27" text-anchor="middle">PRODUTO</text>
+    <text class="label" x="15" y="53">Portal de Chamados</text>
+    <text class="small" x="15" y="69">atendimento · SLA · permissões</text>
+  </g>
+
+  <g transform="translate(45 350)">
+    <rect width="170" height="40" rx="20" fill="#102f35" stroke="#34555a"/>
+    <text class="minor" x="85" y="25" text-anchor="middle">PDF · documentos</text>
+  </g>
+  <g transform="translate(225 350)">
+    <rect width="170" height="40" rx="20" fill="#102f35" stroke="#34555a"/>
+    <text class="minor" x="85" y="25" text-anchor="middle">SGE · energia</text>
+  </g>
+  <g transform="translate(805 350)">
+    <rect width="170" height="40" rx="20" fill="#102f35" stroke="#34555a"/>
+    <text class="minor" x="85" y="25" text-anchor="middle">TPM · manutenção</text>
+  </g>
+  <g transform="translate(985 350)">
+    <rect width="170" height="40" rx="20" fill="#102f35" stroke="#34555a"/>
+    <text class="minor" x="85" y="25" text-anchor="middle">SSO · identidade</text>
+  </g>
+</svg>

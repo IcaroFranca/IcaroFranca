@@ -1,185 +1,182 @@
-<!-- Perfil de Ícaro França | cards em /assets gerados por scripts/generate_profile_cards.py -->
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0E7490,50:06B6D4,100:22D3EE&height=210&section=header&text=%C3%8Dcaro%20Fran%C3%A7a&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%40%20Flexibase%20%E2%80%A2%20React%20%7C%20TypeScript%20%7C%20Node.js&descAlignY=57&descSize=17&animation=fadeIn" alt="Ícaro França — Full-Stack Developer na Flexibase" />
-
-<a href="https://github.com/IcaroFranca">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=22D3EE&center=true&vCenter=true&width=720&lines=Desenvolvendo+sistemas+internos+na+Flexibase;SGQ+%E2%80%A2+Portal+de+Chamados+%E2%80%A2+Integra%C3%A7%C3%B5es;React+%E2%80%A2+TypeScript+%E2%80%A2+Node.js+%E2%80%A2+Supabase;Transformando+processos+em+software+que+funciona" alt="Apresentação animada" />
-</a>
+<img width="100%" src="assets/profile-header.svg" alt="Icaro Ferreira França — Software Developer Júnior, produto, dados e integrações" />
 
 <br />
 
-<a href="https://github.com/Flexibase-Projects">
-  <img src="https://img.shields.io/badge/FLEXIBASE-PROJECTS-0d1117?style=for-the-badge&logo=github&logoColor=22D3EE" alt="Flexibase Projects" />
-</a>
-<img src="https://komarev.com/ghpvc/?username=IcaroFranca&style=for-the-badge&color=0891B2&label=VISITAS+AO+PERFIL" alt="Visitas ao perfil" />
-<img src="https://img.shields.io/github/followers/IcaroFranca?style=for-the-badge&color=06B6D4&labelColor=161b22&logo=github&label=SEGUIDORES" alt="Seguidores" />
+Desenvolvedor júnior com experiência prática em **produtos internos, dashboards, integrações e software em produção**.
+
+[LinkedIn](https://www.linkedin.com/in/icaroferreirafranca) · [Projetos pessoais](#projetos-pessoais) · [Atuação na Flexibase](#produtos-e-integrações-na-flexibase)
 
 </div>
 
-## 👨‍💻 Sobre mim
+---
 
-```typescript
-const icaro = {
-  papel: "Desenvolvedor Full Stack",
-  empresa: "@Flexibase-Projects",
-  local: "Goiânia, Goiás 🇧🇷",
-  trabalho: [
-    "Sistemas corporativos que organizam operação, qualidade e atendimento",
-    "Aplicações completas: interface, API, dados, autenticação e deploy",
-    "Integrações entre o ecossistema Flexibase e sistemas internos",
-  ],
-  valores: ["Código claro", "Produto útil", "Evolução contínua"],
-  objetivo: "Transformar processos reais em software confiável",
-};
-```
+## Minha trajetória, em contexto
 
-Trabalho na **Flexibase**, onde concentro a maior parte da minha experiência prática: desenho fluxos, desenvolvo aplicações de ponta a ponta, integro sistemas e acompanho cada entrega até produção.
+Não comecei por uma stack pronta. Comecei entendendo a base e fui adicionando camadas: páginas estáticas, JavaScript, consumo de APIs, componentes React, sistemas Java e, depois, produtos corporativos conectados a dados reais.
 
-## 🏢 Minha atuação na Flexibase
+| Etapa | O que construí | O que levei para a próxima fase |
+|---|---|---|
+| **Fundamentos web** | Currículo HTML, páginas de conteúdo e o Icarus Recipes | Semântica, CSS, responsividade e publicação |
+| **Aplicações e APIs** | Busca CEP e React Commerce | Componentização, estados de interface, TypeScript e integração REST |
+| **Arquitetura em Java** | NexusRPG para Paper/Spigot | Domínios, módulos, regras de negócio, Maven e integração contínua |
+| **Software em produção** | Produtos e integrações da Flexibase | Autenticação, dados, auditoria, CI/CD, deploy e evolução orientada pela operação |
 
-<div align="center">
+Hoje conduzo minha evolução profissional conectando **interface, regra de negócio, dados e entrega**. Meu grau de senioridade é júnior; minha responsabilidade, porém, já inclui acompanhar problemas do entendimento até a produção.
 
-<img width="100%" src="assets/flexibase-activity.svg" alt="Atividade de desenvolvimento na Flexibase" />
+### Formação que sustenta essa evolução
 
-</div>
+- **Tecnologia em Big Data e Inteligência Artificial** — PUC Goiás, 2023–2025, conclusão *magna cum laude*.
+- Formação complementar em **Git, SQL, lógica de programação e Java orientado a objetos**.
+- **Inglês avançado** para leitura técnica e comunicação profissional.
 
-> A maior parte dos repositórios corporativos é privada. Os destaques abaixo descrevem o impacto e a arquitetura em nível de portfólio, sem expor informações sensíveis.
+## Produtos e integrações na Flexibase
 
-<table>
-<tr>
-<td width="50%" valign="top">
+> Os repositórios corporativos são privados. As descrições abaixo apresentam minha participação e o contexto técnico sem expor código, credenciais, dados ou regras sensíveis da empresa.
 
-### 🧭 SGQ — Sistema de Gestão da Qualidade
-**Qualidade, manutenção e melhoria contínua em uma só plataforma**
+<img width="100%" src="assets/ecosystem-map.svg" alt="Mapa das contribuições de Ícaro no ecossistema de sistemas da Flexibase" />
 
-Sistema corporativo para digitalizar fluxos de qualidade: ocorrências e não conformidades, manutenções de clientes, controle documental, certificações, processos, POPs, auditoria e kanbans operacionais.
+### DASH — indicadores que podem ser investigados
 
-- SSO corporativo e RBAC validado na API
-- Integração controlada com o ERP Focco
-- Timelines, auditoria, documentos e automações de fluxo
-- CI obrigatória e deploy blue-green
+O DASH é uma plataforma de dashboards variáveis. Minha contribuição foi especialmente forte na experiência financeira e na transformação de números isolados em indicadores que podem ser conferidos, explicados e acompanhados.
 
-`React 19` `TypeScript` `Node.js` `Express` `SQLite` `Vite`
+**Onde atuei**
 
-</td>
-<td width="50%" valign="top">
+- Evolução do **Modo Auditoria** em cards, gráficos, tabelas e detalhamentos.
+- Fluxos de certificação com permissões, evidências, comentários, pendências e histórico.
+- Regras e alertas para apoiar a leitura de riscos financeiros.
+- Construção e evolução de visões como DRE, balanço patrimonial e indicadores no AIR.
+- Integração dos dashboards com dados reais do ERP por meio da FoccoAPI, mantendo credenciais fora do cliente e contratos de consulta controlados.
+- Testes de reconciliação para diferenciar erro visual, regra de indicador e divergência na fonte.
 
-### 🎫 Portal de Chamados
-**Atendimento interno organizado por departamento**
+`React 19` `TypeScript` `Vite` `Supabase` `Auditoria` `Dados financeiros`
 
-Plataforma completa para abertura, acompanhamento e gestão de tickets, com formulários dinâmicos, dashboards, respostas, templates e permissões granulares por área.
+### FoccoAPI — o ERP como fonte, sem acoplamento direto
 
-- Dashboard com indicadores e gráficos operacionais
-- Editor drag-and-drop de templates
-- SSO Flexibase e permissões por departamento
-- Supabase/PostgreSQL e deploy em containers
+Minha principal contribuição relacionada à FoccoAPI está no **uso da API como camada de integração**. Em vez de colocar regras e consultas ao ERP dentro de cada tela, trabalhei com contratos read-only que permitem ao DASH e ao SGQ consumir dados corporativos de maneira mais segura e previsível.
+
+**Na prática, isso envolveu**
+
+- Consumo de endpoints financeiros e operacionais com filtros explícitos.
+- Integração via proxy seguro, sem expor chaves ou o banco Oracle ao navegador.
+- Separação entre a apresentação do indicador, sua regra de cálculo e sua fonte de referência.
+- Reconciliação de períodos e totais antes de tratar um dado como confiável no dashboard.
+- Uso da integração em cenários de clientes, pedidos, itens, histórico e análises financeiras.
+- Validação do comportamento sem substituir silenciosamente dados reais por valores simulados.
+
+`TypeScript` `REST` `Oracle` `Read-only` `Contratos` `Integração ERP`
+
+### SGQ — qualidade e manutenção em um fluxo contínuo
+
+No Sistema de Gestão da Qualidade, participei de uma evolução ampla do produto. O sistema reúne ocorrências, não conformidades, manutenções de clientes, controle documental, certificações, processos, POPs, auditorias e painéis operacionais.
+
+**Minhas frentes de contribuição**
+
+- Fluxos de triagem, atribuição, tratamento, evidências e verificação de eficácia.
+- Kanbans, timelines, indicadores, automações e registros de auditoria.
+- Perfis e permissões integrados ao SSO corporativo, com validação também na API.
+- Integrações com dados do Focco para evitar cadastros duplicados e dar contexto à operação.
+- Estabilidade, testes, documentação e preparação de entregas para produção.
+
+`React 19` `TypeScript` `Node.js` `Express` `SQLite` `SSO` `RBAC`
+
+### Portal de Chamados — atendimento configurável por área
+
+Participei da construção e evolução de uma plataforma interna de atendimento, criada para substituir fluxos fragmentados por solicitações rastreáveis e configuráveis por departamento.
+
+**Minhas frentes de contribuição**
+
+- Templates de chamados com campos condicionais e edição visual.
+- Dashboards, filtros, respostas, timeline, SLA e experiência administrativa.
+- Gestão de usuários e permissões granulares por departamento.
+- Integração ao SSO Flexibase e persistência no Supabase/PostgreSQL.
+- Responsividade, padronização visual e publicação em containers.
 
 `React` `TypeScript` `Node.js` `Express` `Supabase` `Docker`
 
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### 🔗 Ecossistema Flexibase
-**Sistemas especializados que compartilham identidade, dados e infraestrutura**
-
-Também contribuí em soluções como **PDF**, **SGE**, **DASH**, **TPM** e **FoccoAPI** — aplicações corporativas, dashboards, APIs internas e integrações que conectam diferentes áreas da empresa com uma experiência consistente.
-
-`React` `TypeScript` `APIs REST` `SSO / OIDC` `GitHub Actions` `Docker` `Blue-green deploy`
-
-</td>
-</tr>
-</table>
-
-## 🛠️ Tecnologias
-
-<div align="center">
-
-![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E)
-![Express](https://img.shields.io/badge/Express-0d1117?style=for-the-badge&logo=express&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-0d1117?style=for-the-badge&logo=supabase&logoColor=3FCF8E)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![Vite](https://img.shields.io/badge/Vite-0d1117?style=for-the-badge&logo=vite&logoColor=646CFF)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0d1117?style=for-the-badge&logo=githubactions&logoColor=2088FF)
-![Java](https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
-![Maven](https://img.shields.io/badge/Maven-0d1117?style=for-the-badge&logo=apachemaven&logoColor=C71A36)
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)
-
-</div>
-
-## 📊 GitHub em números
-
-<div align="center">
-
-<img width="49%" src="assets/github-overview.svg" alt="Resumo do GitHub público" />
-<img width="49%" src="assets/languages.svg" alt="Linguagens dos repositórios públicos" />
+<details>
+<summary><strong>Outras participações no ecossistema</strong></summary>
 
 <br />
 
-<img width="100%" src="assets/contributions.svg" alt="Atividade pública nos repositórios pessoais" />
+| Sistema | Contexto da minha participação |
+|---|---|
+| **PDF** | Integração ao SSO, preparação para deploy blue-green, documentação de produção e alinhamento de interface |
+| **SGE** | Pipeline de publicação, preparação para produção e correções relacionadas ao ambiente Supabase |
+| **TPM** | Evolução do painel de solicitações de manutenção e apoio ao processo de publicação |
+| **CDT** | Correções de estabilidade no frontend e em fluxos de conclusão de tarefas |
+| **SSO** | Participação em iniciativas de acesso e provisionamento dentro do ecossistema corporativo |
+| **MKTMAIL** | Preparação do sistema interno para o padrão de publicação da infraestrutura Flexibase |
 
-</div>
+</details>
 
-> Estes três cards usam os repositórios públicos pessoais. A atividade corporativa privada aparece separadamente no card da Flexibase e no gráfico nativo de contribuições do GitHub quando a visibilidade está habilitada.
+## Projetos pessoais
 
-## 🚀 Projeto pessoal em destaque
+Meus projetos públicos não competem com a experiência corporativa: eles mostram **como cheguei até ela** e onde continuo experimentando com liberdade.
 
-<table>
-<tr>
-<td width="65%" valign="top">
+### [NexusRPG](https://github.com/IcaroFranca/PluginRPGMinecraft)
 
-### ⚔️ [NexusRPG](https://github.com/IcaroFranca/PluginRPGMinecraft)
-**Plugin modular de RPG para Paper/Spigot**
+Plugin modular de RPG para servidores Paper/Spigot. É o projeto pessoal em que mais exercitei organização de domínio e regras de negócio.
 
-Sistema completo para transformar servidores Minecraft em uma experiência RPG: árvore de habilidades, combate, bestiário, economia, mineração, loja, status e suporte a múltiplos idiomas.
-
-- Arquitetura dividida por módulos de domínio
-- Árvore de combate com 19 habilidades e progressão por tiers
-- Build e validações automatizadas no GitHub Actions
+- Árvore de combate com 19 habilidades e progressão por tiers.
+- Sistemas de combate, bestiário, economia, mineração, loja e atributos.
+- Suporte a múltiplos idiomas e configuração por módulos.
+- Build e validações automatizadas no GitHub Actions.
 
 `Java` `Maven` `Paper API` `Spigot` `CI`
 
-</td>
-<td width="35%" valign="top">
+### [React Commerce](https://github.com/IcaroFranca/ProjetoReactCommerce)
 
-### 🌱 Jornada pública
+Experiência de e-commerce criada para aprofundar componentes reutilizáveis, estados de interface, TypeScript e responsividade.
 
-Meus repositórios pessoais registram a evolução desde HTML e CSS até aplicações React, integrações com APIs e sistemas Java.
+`React 19` `TypeScript` `Vite` `CSS`
 
-- [React Commerce](https://github.com/IcaroFranca/ProjetoReactCommerce)
-- [Busca CEP](https://github.com/IcaroFranca/ProjetoBuscaCEP)
-- [Icarus Recipes](https://icarofranca.github.io/ProjetoReceitas)
+### [Busca CEP](https://github.com/IcaroFranca/ProjetoBuscaCEP)
 
-</td>
-</tr>
-</table>
+Aplicação de consulta de endereços que marcou minha evolução no consumo de APIs e na separação entre modelos, serviços e controllers.
 
-## 🤝 Vamos conectar
+`JavaScript` `REST API` `HTML` `CSS`
+
+### [Icarus Recipes](https://icarofranca.github.io/ProjetoReceitas)
+
+Site editorial de receitas publicado no GitHub Pages. Consolidou fundamentos de semântica, composição visual e responsividade.
+
+`HTML` `CSS` `GitHub Pages`
+
+### [Currículo HTML](https://github.com/IcaroFranca/ProjetoCurriculoHTML)
+
+Um currículo semântico, publicável e legível por pessoas e ferramentas de seleção. Foi um dos primeiros passos conscientes da minha presença profissional na web.
+
+`HTML` `Semântica` `SEO` `ATS`
+
+## Tecnologias, pelo papel que cumprem
+
+| Camada | Ferramentas e conhecimentos |
+|---|---|
+| **Interfaces e produto** | React, TypeScript, JavaScript, Vite, HTML e CSS |
+| **APIs e regras de negócio** | Node.js, Express, APIs REST e Java |
+| **Dados e integrações** | Supabase, PostgreSQL, SQLite, Oracle e FoccoAPI |
+| **Identidade e segurança** | SSO, OIDC, RBAC e contratos read-only |
+| **Entrega e operação** | Git, GitHub Actions, Docker, GHCR, testes e deploy blue-green |
+
+## O que procuro desenvolver agora
+
+- Aprofundar arquitetura backend e modelagem de dados.
+- Tornar integrações e indicadores cada vez mais observáveis e testáveis.
+- Evoluir de executor de tarefas para alguém capaz de compreender o produto inteiro.
+- Continuar construindo software útil, com contexto e responsabilidade.
+
+---
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/icaroferreirafranca">
-  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
-</a>
-<a href="https://github.com/Flexibase-Projects">
-  <img src="https://img.shields.io/badge/Flexibase_Projects-0d1117?style=for-the-badge&logo=github&logoColor=22D3EE" alt="Flexibase Projects" />
-</a>
-<a href="https://github.com/IcaroFranca">
-  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
+### Vamos conversar
 
-</div>
+Sou **Icaro Ferreira França**, Software Developer Júnior em Goiânia, Goiás.
 
-<div align="center">
+[LinkedIn](https://www.linkedin.com/in/icaroferreirafranca) · [GitHub](https://github.com/IcaroFranca) · [Flexibase Projects](https://github.com/Flexibase-Projects)
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:06B6D4,100:0E7490&height=120&section=footer" alt="" />
-
-<i>Software que nasce de problemas reais e chega até produção.</i>
+<sub>Software que nasce de problemas reais e chega até produção.</sub>
 
 </div>

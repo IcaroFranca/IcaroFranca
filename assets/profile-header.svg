@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Icaro Ferreira França — Software Developer Júnior</title>
+  <desc id="desc">Identidade visual de Icaro com conexões entre produto, dados, integrações e sistemas em produção</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a1f"/>
+      <stop offset="1" stop-color="#0b252b"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#25c4c7" stroke-opacity="0.07"/>
+    </pattern>
+    <style>
+      .eyebrow { font: 600 13px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 3px; fill: #25c4c7; }
+      .name { font: 700 44px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: -1px; fill: #f3f1e9; }
+      .role { font: 400 20px 'Segoe UI', Ubuntu, sans-serif; fill: #b8c9ca; }
+      .tag { font: 600 14px 'Segoe UI', Ubuntu, sans-serif; fill: #071a1f; }
+      .node { font: 700 13px 'Segoe UI', Ubuntu, sans-serif; fill: #f3f1e9; }
+      .node-sub { font: 400 10px 'Segoe UI', Ubuntu, sans-serif; fill: #8ba4a6; }
+    </style>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <path d="M0 265 C155 190 250 370 430 246" fill="none" stroke="#25c4c7" stroke-opacity="0.32" stroke-width="1.5"/>
+  <path d="M0 288 C164 216 262 380 444 260" fill="none" stroke="#f2b84b" stroke-opacity="0.56" stroke-width="1.5" stroke-dasharray="7 9"/>
+
+  <g transform="translate(48 48)">
+    <path d="M0 10 Q0 0 10 0 H74 L94 20 V84 Q94 94 84 94 H10 Q0 94 0 84 Z" fill="none" stroke="#25c4c7" stroke-width="2"/>
+    <path d="M74 0 V20 H94" fill="none" stroke="#25c4c7" stroke-width="2"/>
+    <text x="47" y="63" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="40" font-weight="300" fill="#25c4c7">IF</text>
+  </g>
+
+  <g transform="translate(185 70)">
+    <text class="eyebrow" x="0" y="0">PRODUTO · DADOS · INTEGRAÇÕES</text>
+    <text class="name" x="0" y="62">ICARO FERREIRA FRANÇA</text>
+    <text class="role" x="2" y="102">Software Developer Júnior</text>
+    <rect x="2" y="130" width="242" height="32" rx="16" fill="#f2b84b"/>
+    <text class="tag" x="123" y="151" text-anchor="middle">DO PROBLEMA À PRODUÇÃO</text>
+  </g>
+
+  <g transform="translate(886 42)">
+    <path d="M68 55 H148 M148 55 V130 M148 130 H68 M148 130 H228" fill="none" stroke="#5e7c7e" stroke-width="1.5"/>
+    <circle cx="148" cy="55" r="4" fill="#f2b84b"/>
+    <circle cx="148" cy="130" r="4" fill="#25c4c7"/>
+
+    <g transform="translate(0 28)">
+      <rect width="86" height="55" rx="8" fill="#0e3037" stroke="#25c4c7" stroke-opacity="0.55"/>
+      <text class="node" x="43" y="24" text-anchor="middle">DASH</text>
+      <text class="node-sub" x="43" y="41" text-anchor="middle">indicadores</text>
+    </g>
+    <g transform="translate(0 103)">
+      <rect width="86" height="55" rx="8" fill="#0e3037" stroke="#25c4c7" stroke-opacity="0.55"/>
+      <text class="node" x="43" y="24" text-anchor="middle">FOCCO</text>
+      <text class="node-sub" x="43" y="41" text-anchor="middle">integração</text>
+    </g>
+    <g transform="translate(228 103)">
+      <rect width="86" height="55" rx="8" fill="#0e3037" stroke="#f2b84b" stroke-opacity="0.7"/>
+      <text class="node" x="43" y="24" text-anchor="middle">SGQ</text>
+      <text class="node-sub" x="43" y="41" text-anchor="middle">qualidade</text>
+    </g>
+    <g transform="translate(105 102)">
+      <circle cx="43" cy="28" r="34" fill="#071a1f" stroke="#f2b84b" stroke-width="1.5"/>
+      <text x="43" y="24" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="16" font-weight="700" fill="#f3f1e9">PRODUTO</text>
+      <text x="43" y="41" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8ba4a6">EM PRODUÇÃO</text>
+    </g>
+  </g>
+
+  <g transform="translate(185 276)">
+    <circle cx="0" cy="0" r="4" fill="#25c4c7"/>
+    <line x1="14" y1="0" x2="430" y2="0" stroke="#34545a"/>
+    <circle cx="444" cy="0" r="4" fill="#f2b84b"/>
+    <text x="462" y="5" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" letter-spacing="1.5" fill="#8ba4a6">GOIÂNIA · GO</text>
+  </g>
+</svg>
