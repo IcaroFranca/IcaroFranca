@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Tecnologias por área</title>
+  <desc id="desc">Stack de Icaro organizada em três áreas: frontend, backend e APIs, dados, integrações e entrega</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#071a1f"/>
+      <stop offset="0.5" stop-color="#0d282e"/>
+      <stop offset="1" stop-color="#071a1f"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop offset="0" stop-color="#25c4c7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#25c4c7" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#25c4c7" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .kicker { font: 600 11px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 2px; fill: #25c4c7; }
+      .area { font: 700 15px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 1px; fill: #f3f1e9; }
+      .label { font: 600 9px 'Segoe UI', Ubuntu, sans-serif; fill: #b8c9ca; }
+      .summary { font: 400 11px 'Segoe UI', Ubuntu, sans-serif; fill: #8ba4a6; }
+      .brand { fill: currentColor; }
+    </style>
+
+    <!-- Marcas reconhecíveis, desenhadas em vetor e embutidas para funcionar no GitHub. -->
+    <symbol id="react" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.35"><ellipse cx="12" cy="12" rx="10" ry="3.7"/><ellipse cx="12" cy="12" rx="10" ry="3.7" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="3.7" transform="rotate(120 12 12)"/><circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/></g>
+    </symbol>
+    <symbol id="typescript" viewBox="0 0 24 24">
+      <rect width="24" height="24" rx="2" fill="currentColor"/><text x="12.5" y="17.2" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="800" fill="#fff">TS</text>
+    </symbol>
+    <symbol id="javascript" viewBox="0 0 24 24">
+      <rect width="24" height="24" rx="2" fill="currentColor"/><text x="12.5" y="17.2" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="800" fill="#071a1f">JS</text>
+    </symbol>
+    <symbol id="vite" viewBox="0 0 24 24">
+      <path d="M2 3.6 11 21c.4.8 1.5.8 1.9 0L22 3.6c.4-.8-.3-1.7-1.1-1.5l-8.8 1.6-9-1.6c-.8-.2-1.5.7-1.1 1.5Z" fill="currentColor"/><path d="m13.6 2.1-5.2 9.6h3.7l-1.2 7.1 5.4-10h-3.6Z" fill="#f2b84b"/>
+    </symbol>
+    <symbol id="html5" viewBox="0 0 24 24">
+      <path d="M2 1h20l-1.8 20-8.2 2.3L3.8 21Zm4.1 4 .7 8h9.1l-.3 3.3-3.6 1-3.6-1-.2-2.3H5.1l.4 4.8 6.5 1.8 6.5-1.8.9-10.7H9.6L9.4 5Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="css3" viewBox="0 0 24 24">
+      <path d="M2 1h20l-1.8 20-8.2 2.3L3.8 21Zm4.2 4 .2 2.8h9.8l-.2 2.5H6.7l.7 8.5 4.6 1.3 4.6-1.3.6-6.3h-3l-.3 3.9-1.9.5-1.9-.5-.1-1.8H7l.4 4.2 4.6 1.3 4.6-1.3L17.8 5Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="node" viewBox="0 0 24 24">
+      <path d="M12 1.2 21.4 6.6v10.8L12 22.8l-9.4-5.4V6.6Zm0 2.3L4.6 7.8v8.4l2.6 1.5V8.3h2v10.5l2.8 1.6 7.4-4.2V7.8Z" fill="currentColor"/><path d="M10.5 7.3c0-1.8 1.5-2.8 4-2.8 2.2 0 3.6.8 3.8 2.5h-2c-.2-.7-.8-.9-1.8-.9-1.2 0-1.9.3-1.9.9 0 .5.5.7 2.4.9 2.4.3 3.6 1 3.6 2.8 0 1.9-1.5 2.9-4.2 2.9-3.2 0-4.2-1.5-4.2-2.8h2c.2.9.8 1.2 2.3 1.2 1.3 0 2-.3 2-1 0-.5-.3-.8-2.3-1-2.2-.2-3.7-.8-3.7-2.7Z" fill="#071a1f"/>
+    </symbol>
+    <symbol id="express" viewBox="0 0 24 24">
+      <path d="M1 4h10.7l4.4 6 3.2-4.4h1.8l-4.2 5.6 5.1 6.9h-1.8l-4.1-5.6-4.2 5.6H4.2V6H1Zm4.8 3v3.3h5.4c-.1-2.2-1-3.3-2.7-3.3-1.5 0-2.4 1.1-2.7 3.3Zm5.4 4.6H5.8c.1 2.4 1.1 3.6 2.9 3.6 1.2 0 2.1-.6 2.5-1.8h1.5c-.5 2.1-1.8 3.2-4 3.2-2.9 0-4.5-2-4.5-5.4 0-3.5 1.6-5.6 4.4-5.6 2.7 0 4.2 2.1 4.1 5.6Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="java" viewBox="0 0 24 24">
+      <path d="M7 15h10v2c0 3-2.2 4.5-5 4.5S7 20 7 17Zm10 1h2c2.7 0 2.7 4 0 4h-3M9.5 13c-5-4.5 6-5.5 1-10m4 10c-5-4.5 6-5.5 1-10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="rest" viewBox="0 0 24 24">
+      <path d="m8 4-6 8 6 8m8-16 6 8-6 8M15 2l-6 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="supabase" viewBox="0 0 24 24">
+      <path d="M11.9 1c0-1-1.3-1.4-1.9-.6L.8 12.1c-1.1 1.4-.1 3.4 1.7 3.4H12l.1 7.5c0 1 1.3 1.4 1.9.6l9.2-11.7c1.1-1.4.1-3.4-1.6-3.4H12Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="postgresql" viewBox="0 0 24 24">
+      <path d="M17.8 2.1c-1.8-.8-4-.4-5.5.7-1.8-1.1-4.6-1.5-6.5-.2C3.7 4 3.9 7.2 4.5 9.8c.5 2.3 1.6 5.7 3.2 6.7.8.5 1.8-.3 2.7-1.2l.3.2c-.7.8-1.2 1.2-2.1 1.4-1.4.3-.8 1.2.1 1.4 1.4.3 2.6-.1 3.4-1.1 0 2.5.1 4.5.6 5.4.4.7 1.1 1.1 2.3.8 1.7-.4 2.1-1.5 2.3-3.1l.3-3.4c.1-.8.4-.8 1-.7 1.2.2 2.5 0 3.3-.7.7-.6.5-1.1-.5-.9-1.3.3-2 .1-2.4-.2 1.4-2.1 2.6-5.2 3-7.6.4-2.4-.8-3.9-4.2-4.7Zm-8 11.4c-.9.8-1.4 1.5-1.8 1.1-.8-.7-1.8-3.5-2.2-5.3-.6-2.6-.6-4.7.8-5.6 1.1-.8 3.1-.5 4.5.2-1.7 2.4-1.5 6.2-1.3 9.6Zm7.8.6c-.5-.6-.8-1.3-1.3-2.3-1-2-1.9-4.1-1.1-5.2.4-.6 1.3-.8 2.6-.6-.1-1-.8-2.2-2-3.1.7-.2 1.5-.2 2.2.1 2.3.8 2.8 2.1 2.4 4.1-.4 2.2-1.4 4.9-2.8 7Z" fill="currentColor"/>
+      <circle cx="12.2" cy="7.9" r=".7" fill="#071a1f"/><circle cx="17.2" cy="7.6" r=".7" fill="#071a1f"/>
+    </symbol>
+    <symbol id="sqlite" viewBox="0 0 24 24">
+      <path d="M21.7.5c-2.3-2-5.6 2.2-7.4 6.4-1 2.2-1.6 4.4-1.8 6 .6.9.9 2.3 1 3.3.4-2.3 1.1-4.7 2.1-7 1.5-3.6 3.8-6.8 6-8.5-2 1.8-4.5 6.9-5.5 9.6 1.3-.4 2.8-.8 3.7-1.6 2-2.7 3.8-6.5 1.9-8.2Z" fill="currentColor"/><path d="M3.1 1.1C2.1 1.1 1.3 2 1.3 3v16.5c0 1 .8 1.8 1.8 1.8h9.5c-.2-1.6-.2-3.2-.1-4.8-.3-1.5-.7-2.7-.9-3.1-.1-.2-.1-.6 0-1.1.4-2 1.2-4.4 2.3-6.7.8-1.8 1.8-3.3 2.8-4.5Z" fill="currentColor" opacity=".85"/>
+    </symbol>
+    <symbol id="oracle" viewBox="0 0 24 24">
+      <path d="M16.4 4.4H7.6a7.6 7.6 0 0 0 0 15.2h8.8a7.6 7.6 0 1 0 0-15.2Zm-.2 12.5H7.8a4.9 4.9 0 1 1 0-9.8h8.4a4.9 4.9 0 1 1 0 9.8Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="docker" viewBox="0 0 24 24">
+      <path d="M14 11.1h2.1c.1 0 .2-.1.2-.2V9c0-.1-.1-.2-.2-.2H14c-.1 0-.2.1-.2.2v1.9c0 .1.1.2.2.2Zm-3-5.5h2.1c.1 0 .2-.1.2-.2V3.6c0-.1-.1-.2-.2-.2H11c-.1 0-.2.1-.2.2v1.9c0 .1.1.1.2.1Zm0 2.8h2.1c.1 0 .2-.1.2-.2V6.3c0-.1-.1-.2-.2-.2H11c-.1 0-.2.1-.2.2v1.9c0 .1.1.2.2.2Zm-2.9 0h2.1c.1 0 .2-.1.2-.2V6.3c0-.1-.1-.2-.2-.2H8.1c-.1 0-.2.1-.2.2v1.9c0 .1.1.2.2.2Zm-3 0h2.2c.1 0 .2-.1.2-.2V6.3c0-.1-.1-.2-.2-.2H5.1c-.1 0-.2.1-.2.2v1.9c0 .1.1.2.2.2Zm5.9 2.7h2.1c.1 0 .2-.1.2-.2V9c0-.1-.1-.2-.2-.2H11c-.1 0-.2.1-.2.2v1.9c0 .1.1.2.2.2Zm-2.9 0h2.1c.1 0 .2-.1.2-.2V9c0-.1-.1-.2-.2-.2H8.1c-.1 0-.2.1-.2.2v1.9c0 .1.1.2.2.2Zm-3 0h2.2c.1 0 .2-.1.2-.2V9c0-.1-.1-.2-.2-.2H5.1c-.1 0-.2.1-.2.2v1.9c0 .1.1.2.2.2Zm-2.9 0h2.1c.1 0 .2-.1.2-.2V9c0-.1-.1-.2-.2-.2H2.2c-.1 0-.2.1-.2.2v1.9c0 .1.1.2.2.2Zm21.6-1.2c-.7-.5-1.8-.6-3-.4-.3-1.7-1.7-2.5-1.7-2.6-.7 1-.9 2.9-.8 4.2-.6.3-1.6.4-1.7.4H.8c-.4 0-.8.3-.8.8.1 2.8 1 5.8 3.1 7.2 2.3 1.4 6.5 1.4 9.2.8 4.5-1 6.7-4.1 8-7.9h.2c2 0 3.1-1.1 3.5-2.3Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="actions" viewBox="0 0 24 24">
+      <circle cx="5" cy="5" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m4 3 3 2-3 2Z" fill="currentColor"/><circle cx="12" cy="13" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="20" cy="13" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="21" r="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 9v1c0 1.7 1.3 3 3 3h1m6 0h2m-5 3v2.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    </symbol>
+    <symbol id="git" viewBox="0 0 24 24">
+      <path d="M13.1 23.5a1.5 1.5 0 0 1-2.2 0L.5 13.1a1.5 1.5 0 0 1 0-2.2l7.1-7.2 2.8 2.8a1.9 1.9 0 0 0 1 2.3v6.6a1.9 1.9 0 1 0 1.5 0V9l2.5 2.5a1.9 1.9 0 1 0 1.1-1.1l-2.7-2.6a1.9 1.9 0 0 0-2.3-2.4L8.7 2.6 10.9.5a1.5 1.5 0 0 1 2.2 0l10.4 10.4a1.5 1.5 0 0 1 0 2.2Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="openid" viewBox="0 0 24 24">
+      <path d="m14.5.9-3.6 1.8v18.1c-4.1-.5-7.3-2.8-7.3-5.5 0-2.6 2.8-4.7 6.7-5.4V7.6C4.4 8.3 0 11.5 0 15.3c0 4 4.7 7.3 10.9 7.8l3.6-1.7Zm.7 6.7v2.3c1.4.3 2.7.7 3.7 1.3l-2 1.1 7.1 1.6-.5-5.2-1.9 1c-1.7-1-4-1.8-6.4-2.1Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="tests" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m6.5 12 3.5 3.5 7.5-8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1199" height="389" rx="16" fill="url(#bg)" stroke="#25464c"/>
+  <rect x="-260" width="260" height="390" fill="url(#scan)"><animate attributeName="x" values="-260;1200" dur="9s" repeatCount="indefinite"/></rect>
+  <text class="kicker" x="35" y="35">STACK · ORGANIZADA POR RESPONSABILIDADE</text>
+  <line x1="400" y1="58" x2="400" y2="350" stroke="#34555a"/>
+  <line x1="800" y1="58" x2="800" y2="350" stroke="#34555a"/>
+
+  <!-- Frontend -->
+  <g>
+    <text class="area" x="200" y="83" text-anchor="middle">FRONTEND</text>
+    <g transform="translate(35 112)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#61dafb"/><use href="#react" x="10" y="10" width="28" height="28" style="color:#61dafb"/><text class="label" x="24" y="66" text-anchor="middle">React</text></g>
+    <g transform="translate(95 112)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#3178c6"/><use href="#typescript" x="11" y="11" width="26" height="26" style="color:#3178c6"/><text class="label" x="24" y="66" text-anchor="middle">TypeScript</text></g>
+    <g transform="translate(155 112)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#f7df1e"/><use href="#javascript" x="11" y="11" width="26" height="26" style="color:#f7df1e"/><text class="label" x="24" y="66" text-anchor="middle">JavaScript</text></g>
+    <g transform="translate(215 112)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#a78bfa"/><use href="#vite" x="11" y="10" width="26" height="28" style="color:#a78bfa"/><text class="label" x="24" y="66" text-anchor="middle">Vite</text></g>
+    <g transform="translate(275 112)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#e34f26"/><use href="#html5" x="11" y="10" width="26" height="28" style="color:#e34f26"/><text class="label" x="24" y="66" text-anchor="middle">HTML5</text></g>
+    <g transform="translate(335 112)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#1572b6"/><use href="#css3" x="11" y="10" width="26" height="28" style="color:#1572b6"/><text class="label" x="24" y="66" text-anchor="middle">CSS3</text></g>
+    <text class="summary" x="200" y="225" text-anchor="middle">Interfaces responsivas · componentes · estado</text>
+    <text class="summary" x="200" y="245" text-anchor="middle">experiência de uso · design systems</text>
+    <animate attributeName="opacity" values="0.82;1;0.82" dur="6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Backend -->
+  <g transform="translate(400 0)">
+    <text class="area" x="200" y="83" text-anchor="middle">BACKEND &amp; APIs</text>
+    <g transform="translate(79 112)"><rect width="54" height="54" rx="12" fill="#102f35" stroke="#5fa04e"/><use href="#node" x="13" y="13" width="28" height="28" style="color:#5fa04e"/><text class="label" x="27" y="72" text-anchor="middle">Node.js</text></g>
+    <g transform="translate(142 112)"><rect width="54" height="54" rx="12" fill="#102f35" stroke="#f3f1e9"/><use href="#express" x="13" y="13" width="28" height="28" style="color:#f3f1e9"/><text class="label" x="27" y="72" text-anchor="middle">Express</text></g>
+    <g transform="translate(205 112)"><rect width="54" height="54" rx="12" fill="#102f35" stroke="#f2b84b"/><use href="#java" x="13" y="11" width="28" height="30" style="color:#f2b84b"/><text class="label" x="27" y="72" text-anchor="middle">Java</text></g>
+    <g transform="translate(268 112)"><rect width="54" height="54" rx="12" fill="#102f35" stroke="#25c4c7"/><use href="#rest" x="14" y="13" width="26" height="28" style="color:#25c4c7"/><text class="label" x="27" y="72" text-anchor="middle">REST</text></g>
+    <text class="summary" x="200" y="225" text-anchor="middle">Regras de negócio · autenticação · contratos</text>
+    <text class="summary" x="200" y="245" text-anchor="middle">APIs REST · integrações entre sistemas</text>
+    <animate attributeName="opacity" values="0.82;1;0.82" dur="6s" begin="0.8s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Dados, integrações e entrega -->
+  <g transform="translate(800 0)">
+    <text class="area" x="200" y="83" text-anchor="middle">DADOS · INTEGRAÇÕES · ENTREGA</text>
+    <g transform="translate(35 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#3fcf8e"/><use href="#supabase" x="11" y="10" width="26" height="28" style="color:#3fcf8e"/><text class="label" x="24" y="66" text-anchor="middle">Supabase</text></g>
+    <g transform="translate(95 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#4169e1"/><use href="#postgresql" x="10" y="9" width="28" height="30" style="color:#6f8dff"/><text class="label" x="24" y="66" text-anchor="middle">PostgreSQL</text></g>
+    <g transform="translate(155 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#38bdf8"/><use href="#sqlite" x="10" y="9" width="28" height="30" style="color:#38bdf8"/><text class="label" x="24" y="66" text-anchor="middle">SQLite</text></g>
+    <g transform="translate(215 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#f80000"/><use href="#oracle" x="9" y="10" width="30" height="28" style="color:#fb7185"/><text class="label" x="24" y="66" text-anchor="middle">Oracle</text></g>
+    <g transform="translate(275 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#2496ed"/><use href="#docker" x="9" y="9" width="30" height="30" style="color:#2496ed"/><text class="label" x="24" y="66" text-anchor="middle">Docker</text></g>
+    <g transform="translate(335 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#a78bfa"/><use href="#actions" x="10" y="9" width="28" height="30" style="color:#a78bfa"/><text class="label" x="24" y="66" text-anchor="middle">Actions</text></g>
+    <g transform="translate(125 198)"><rect width="54" height="54" rx="12" fill="#102f35" stroke="#f05032"/><use href="#git" x="13" y="13" width="28" height="28" style="color:#f05032"/><text class="label" x="27" y="72" text-anchor="middle">Git</text></g>
+    <g transform="translate(188 198)"><rect width="54" height="54" rx="12" fill="#102f35" stroke="#f2b84b"/><use href="#openid" x="13" y="12" width="28" height="30" style="color:#f2b84b"/><text class="label" x="27" y="72" text-anchor="middle">SSO/OIDC</text></g>
+    <g transform="translate(251 198)"><rect width="54" height="54" rx="12" fill="#102f35" stroke="#4ade80"/><use href="#tests" x="13" y="13" width="28" height="28" style="color:#4ade80"/><text class="label" x="27" y="72" text-anchor="middle">Testes</text></g>
+    <text class="summary" x="200" y="310" text-anchor="middle">SQL · ERP · CI/CD · containers · identidade</text>
+    <text class="summary" x="200" y="330" text-anchor="middle">dados confiáveis até a produção</text>
+    <animate attributeName="opacity" values="0.82;1;0.82" dur="6s" begin="1.6s" repeatCount="indefinite"/>
+  </g>
+
+  <path d="M35 360 H1165" stroke="#34555a" stroke-width="1.5"/>
+  <circle r="4" fill="#f2b84b"><animateMotion path="M35 360 H1165" dur="7s" repeatCount="indefinite"/></circle>
+</svg>
