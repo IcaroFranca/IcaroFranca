@@ -6,7 +6,7 @@
 
 Desenvolvedor júnior com experiência prática em **produtos internos, dashboards, integrações e software em produção**.
 
-[LinkedIn](https://www.linkedin.com/in/icaroferreirafranca) · [Projetos pessoais](#-projetos-pessoais) · [Flexibase](#-experiência-na-flexibase)
+[LinkedIn](https://www.linkedin.com/in/icaroferreirafranca) · [Projetos pessoais](#-projetos-pessoais) · [Experiência na indústria](#-experiência-na-indústria)
 
 </div>
 
@@ -14,14 +14,22 @@ Desenvolvedor júnior com experiência prática em **produtos internos, dashboar
 
 - Formado em **Big Data e Inteligência Artificial** pela PUC Goiás, *magna cum laude*.
 - Evoluí de projetos em HTML e JavaScript para aplicações React, sistemas Java e produtos corporativos.
-- Na Flexibase, trabalho conectando interface, APIs, dados, autenticação e entrega.
+- Na indústria, trabalho conectando interface, APIs, dados, autenticação e entrega.
 - Sou júnior e busco crescer compreendendo o produto inteiro, não apenas a tarefa isolada.
 
-## 🏢 Experiência na Flexibase
+## 🧰 Tecnologias
+
+<img width="100%" src="assets/technology-loop.svg" alt="Tecnologias utilizadas por Icaro entre interface, APIs, dados e entrega" />
+
+- **Interface:** React, TypeScript, JavaScript, HTML e CSS.
+- **Backend e dados:** Node.js, Express, Java, Supabase, PostgreSQL, SQLite e Oracle.
+- **Entrega:** Git, GitHub Actions, Docker, GHCR, testes e deploy blue-green.
+
+## 🏢 Experiência na indústria
 
 > Os repositórios corporativos são privados. Os resumos abaixo preservam código, dados e regras internas.
 
-<img width="100%" src="assets/ecosystem-map.svg" alt="Mapa das contribuições de Icaro no ecossistema de sistemas da Flexibase" />
+<img width="100%" src="assets/ecosystem-map.svg" alt="Mapa das contribuições de Icaro em um ecossistema de sistemas para a indústria" />
 
 ### 📊 DASH
 
@@ -47,7 +55,10 @@ Participei da construção de templates configuráveis, campos condicionais, das
 
 `React` `TypeScript` `Supabase` `Docker` `SSO`
 
-### Outras participações no ecossistema
+<details>
+<summary><strong>Outras participações no ecossistema</strong></summary>
+
+<br />
 
 | Sistema | Contexto da minha participação |
 |---|---|
@@ -56,7 +67,9 @@ Participei da construção de templates configuráveis, campos condicionais, das
 | **TPM** | Painel de manutenção e apoio à publicação |
 | **CDT** | Estabilidade do frontend e fluxos de tarefas |
 | **SSO** | Acesso e provisionamento entre aplicações |
-| **MKTMAIL** | Adequação ao padrão de infraestrutura da Flexibase |
+| **MKTMAIL** | Adequação ao padrão de infraestrutura corporativa |
+
+</details>
 
 ## 🧪 Projetos pessoais
 
@@ -68,14 +81,6 @@ Participei da construção de templates configuráveis, campos condicionais, das
 | 🍲 **[Icarus Recipes](https://icarofranca.github.io/ProjetoReceitas)** | Semântica, composição visual, CSS e GitHub Pages |
 | 📄 **[Currículo HTML](https://github.com/IcaroFranca/ProjetoCurriculoHTML)** | Primeiro projeto profissional publicável, compatível com leitura ATS |
 
-## 🧰 Tecnologias
-
-<img width="100%" src="assets/technology-loop.svg" alt="Tecnologias utilizadas por Icaro entre interface, APIs, dados e entrega" />
-
-- **Interface:** React, TypeScript, JavaScript, HTML e CSS.
-- **Backend e dados:** Node.js, Express, Java, Supabase, PostgreSQL, SQLite e Oracle.
-- **Entrega:** Git, GitHub Actions, Docker, GHCR, testes e deploy blue-green.
-
 ---
 
 <div align="center">
@@ -84,6 +89,6 @@ Participei da construção de templates configuráveis, campos condicionais, das
 
 <br />
 
-[LinkedIn](https://www.linkedin.com/in/icaroferreirafranca) · [GitHub](https://github.com/IcaroFranca) · [Flexibase Projects](https://github.com/Flexibase-Projects)
+[LinkedIn](https://www.linkedin.com/in/icaroferreirafranca) · [GitHub](https://github.com/IcaroFranca)
 
 </div>

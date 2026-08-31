@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">Mapa de atuação no ecossistema Flexibase</title>
+  <title id="title">Mapa de atuação em sistemas para a indústria</title>
   <desc id="desc">DASH, FoccoAPI, SGQ e Portal de Chamados como contribuições principais de Icaro, conectados a outros produtos internos</desc>
   <defs>
     <linearGradient id="panel" x1="0" x2="1">
@@ -16,7 +16,7 @@
     </style>
   </defs>
   <rect x="0.5" y="0.5" width="1199" height="429" rx="16" fill="url(#panel)" stroke="#25464c"/>
-  <text class="kicker" x="40" y="42">MAPA DE ATUAÇÃO · FLEXIBASE</text>
+  <text class="kicker" x="40" y="42">MAPA DE ATUAÇÃO · INDÚSTRIA</text>
   <text class="heading" x="40" y="76">Produtos diferentes, uma experiência conectada.</text>
   <text class="small" x="40" y="100">As conexões representam frentes de trabalho — não o tráfego ou a arquitetura interna dos sistemas.</text>
 
