@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+  <title id="title">Vamos construir o próximo capítulo</title>
+  <desc id="desc">Rodapé do perfil de Icaro Ferreira França com sua mensagem profissional</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a1f"/>
+      <stop offset="0.55" stop-color="#0d282e"/>
+      <stop offset="1" stop-color="#071a1f"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" x2="1">
+      <stop offset="0" stop-color="#25c4c7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#25c4c7" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#25c4c7" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .kicker { font: 600 11px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 2.5px; fill: #25c4c7; }
+      .title { font: 700 30px 'Segoe UI', Ubuntu, sans-serif; fill: #f3f1e9; }
+      .body { font: 400 14px 'Segoe UI', Ubuntu, sans-serif; fill: #9ab0b2; }
+      .small { font: 600 10px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 1.5px; fill: #8ba4a6; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="229" rx="16" fill="url(#bg)" stroke="#25464c"/>
+  <rect x="-260" width="260" height="230" fill="url(#beam)"><animate attributeName="x" values="-260;1200" dur="8s" repeatCount="indefinite"/></rect>
+
+  <g transform="translate(44 42)">
+    <rect width="112" height="112" rx="28" fill="#0b3037" stroke="#25c4c7" stroke-width="2"/>
+    <text x="56" y="70" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="42" font-weight="300" fill="#25c4c7">IF</text>
+    <circle cx="91" cy="91" r="5" fill="#f2b84b"><animate attributeName="r" values="4;8;4" dur="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g transform="translate(196 50)">
+    <text class="kicker" x="0" y="0">PRÓXIMO CAPÍTULO</text>
+    <text class="title" x="0" y="45">Vamos construir algo útil?</text>
+    <text class="body" x="0" y="77">Continuo aprendendo, colaborando e transformando problemas reais em software.</text>
+    <text class="body" x="0" y="102">Icaro Ferreira França · Software Developer Júnior · Goiânia, GO</text>
+  </g>
+
+  <g transform="translate(836 47)">
+    <path d="M22 70 H258" fill="none" stroke="#34555a" stroke-width="2"/>
+    <circle cx="22" cy="70" r="9" fill="#071a1f" stroke="#25c4c7" stroke-width="2"/>
+    <circle cx="140" cy="70" r="9" fill="#071a1f" stroke="#f2b84b" stroke-width="2"/>
+    <circle cx="258" cy="70" r="9" fill="#071a1f" stroke="#25c4c7" stroke-width="2"/>
+    <circle r="4" fill="#f2b84b"><animateMotion path="M22 70 H258" dur="3.8s" repeatCount="indefinite"/></circle>
+    <text class="small" x="22" y="101" text-anchor="middle">CONTEXTO</text>
+    <text class="small" x="140" y="101" text-anchor="middle">CÓDIGO</text>
+    <text class="small" x="258" y="101" text-anchor="middle">PRODUÇÃO</text>
+  </g>
+
+  <path d="M0 201 C210 150 330 260 560 201 S920 150 1200 201" fill="none" stroke="#25c4c7" stroke-opacity="0.35"/>
+  <path d="M0 213 C210 162 330 272 560 213 S920 162 1200 213" fill="none" stroke="#f2b84b" stroke-opacity="0.55" stroke-dasharray="7 9"/>
+</svg>
