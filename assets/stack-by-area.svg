@@ -1,127 +1,123 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="710" viewBox="0 0 1200 710" role="img" aria-labelledby="title desc">
-  <title id="title">Stack detalhada por área com ícones</title>
-  <desc id="desc">Linguagens, frontend, backend, dados, integrações, segurança, DevOps, testes e qualidade utilizados por Icaro</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Stack dividida por área</title>
+  <desc id="desc">Tecnologias utilizadas por Icaro em frontend, backend e APIs, dados, integrações e entrega</desc>
   <defs>
-    <linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#071a1f"/><stop offset="0.5" stop-color="#0d282e"/><stop offset="1" stop-color="#071a1f"/></linearGradient>
-    <linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="#25c4c7" stop-opacity="0"/><stop offset="0.5" stop-color="#25c4c7" stop-opacity="0.12"/><stop offset="1" stop-color="#25c4c7" stop-opacity="0"/></linearGradient>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#071a1f"/>
+      <stop offset="0.5" stop-color="#0d282e"/>
+      <stop offset="1" stop-color="#071a1f"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop offset="0" stop-color="#25c4c7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#25c4c7" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#25c4c7" stop-opacity="0"/>
+    </linearGradient>
     <style>
-      .kicker { font: 600 11px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 2.2px; fill: #25c4c7; }
-      .category { font: 700 15px 'Segoe UI', Ubuntu, sans-serif; fill: #f3f1e9; }
-      .badge { font: 700 11px 'Segoe UI', Ubuntu, sans-serif; fill: #fff; }
-      .badge-dark { font: 700 11px 'Segoe UI', Ubuntu, sans-serif; fill: #071a1f; }
-      use { color: #fff; }
-      .dark-icon { color: #071a1f; }
+      .kicker { font: 600 11px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 2px; fill: #25c4c7; }
+      .area { font: 700 15px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 1px; fill: #f3f1e9; }
+      .icon { font: 800 17px 'Segoe UI', Ubuntu, sans-serif; }
+      .label { font: 600 9px 'Segoe UI', Ubuntu, sans-serif; fill: #b8c9ca; }
+      .summary { font: 400 11px 'Segoe UI', Ubuntu, sans-serif; fill: #8ba4a6; }
     </style>
-
-    <symbol id="i-web" viewBox="0 0 20 20"><path d="M4 2h12l-1 14-5 2-5-2Z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m7 6 7-1-.5 4H8l-.2 3 2.2.8 2.3-.8.2-1.5" fill="none" stroke="currentColor" stroke-width="1.4"/></symbol>
-    <symbol id="i-codebox" viewBox="0 0 20 20"><rect x="2" y="2" width="16" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m8 6-4 4 4 4m4-8 4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-java" viewBox="0 0 20 20"><path d="M4 12h10v2c0 3-2 4-5 4s-5-1-5-4Zm10 1h2c2 0 2 3 0 3h-3M7 10C3 6 12 6 8 2m3 8C7 6 16 6 12 2" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-db" viewBox="0 0 20 20"><ellipse cx="10" cy="4" rx="7" ry="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M3 4v12c0 2 3 3 7 3s7-1 7-3V4M3 10c0 2 3 3 7 3s7-1 7-3" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-react" viewBox="0 0 20 20"><g fill="none" stroke="currentColor" stroke-width="1.3"><ellipse cx="10" cy="10" rx="8" ry="3"/><ellipse cx="10" cy="10" rx="8" ry="3" transform="rotate(60 10 10)"/><ellipse cx="10" cy="10" rx="8" ry="3" transform="rotate(120 10 10)"/><circle cx="10" cy="10" r="1.5" fill="currentColor"/></g></symbol>
-    <symbol id="i-bolt" viewBox="0 0 20 20"><path d="M11 1 3 11h6l-1 8 9-12h-6Z" fill="currentColor"/></symbol>
-    <symbol id="i-waves" viewBox="0 0 20 20"><path d="M2 7c3-4 6 4 10 0 2-2 4-2 6-2M2 13c3-4 6 4 10 0 2-2 4-2 6-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
-    <symbol id="i-route" viewBox="0 0 20 20"><circle cx="4" cy="4" r="2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="16" cy="10" r="2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="4" cy="16" r="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 4h3c5 0 7 2 7 4M6 16h3c5 0 7-2 7-4" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-chart" viewBox="0 0 20 20"><path d="M3 17V3m0 14h14M5 14l4-5 3 2 5-7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
-    <symbol id="i-grid" viewBox="0 0 20 20"><rect x="2" y="2" width="7" height="7" rx="1" fill="none" stroke="currentColor" stroke-width="1.4"/><rect x="11" y="2" width="7" height="7" rx="1" fill="none" stroke="currentColor" stroke-width="1.4"/><rect x="2" y="11" width="7" height="7" rx="1" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M12 14h5m-2.5-2.5v5" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-node" viewBox="0 0 20 20"><path d="m10 1 8 4.5v9L10 19l-8-4.5v-9Z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 14V6l6 8V6" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-server" viewBox="0 0 20 20"><rect x="2" y="3" width="16" height="6" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><rect x="2" y="11" width="16" height="6" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="5" cy="6" r="1" fill="currentColor"/><circle cx="5" cy="14" r="1" fill="currentColor"/></symbol>
-    <symbol id="i-api" viewBox="0 0 20 20"><path d="m7 3-5 7 5 7M13 3l5 7-5 7M12 1 8 19" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
-    <symbol id="i-function" viewBox="0 0 20 20"><path d="M13 3c-5-2-6 3-6 7s-1 7-5 7m3-7h8m1-2 4 4m0-4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
-    <symbol id="i-erp" viewBox="0 0 20 20"><path d="M2 18V8l5 3V7l5 3V4h6v14ZM5 14h2m3 0h2m3 0h2" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-link" viewBox="0 0 20 20"><path d="m8 13-2 2a3.5 3.5 0 0 1-5-5l3-3a3.5 3.5 0 0 1 5 0m3 0 2-2a3.5 3.5 0 0 1 5 5l-3 3a3.5 3.5 0 0 1-5 0M6 10h8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
-    <symbol id="i-lock" viewBox="0 0 20 20"><rect x="3" y="9" width="14" height="10" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6 9V6a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
-    <symbol id="i-id" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="7" r="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 16c1-4 9-4 10 0" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-shield" viewBox="0 0 20 20"><path d="M10 1 17 4v5c0 5-3 8-7 10C6 17 3 14 3 9V4Z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m6 10 3 3 5-6" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-eye" viewBox="0 0 20 20"><path d="M1 10s3-6 9-6 9 6 9 6-3 6-9 6-9-6-9-6Z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m3 18 14-16" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-bridge" viewBox="0 0 20 20"><path d="M2 6h16M2 14h16M5 3 2 6l3 3m10 2 3 3-3 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
-    <symbol id="i-git" viewBox="0 0 20 20"><circle cx="5" cy="4" r="2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="15" cy="10" r="2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="5" cy="16" r="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 4h2c4 0 6 2 6 4M7 16h2c4 0 6-2 6-4" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
-    <symbol id="i-github" viewBox="0 0 20 20"><path d="M10 2a8 8 0 0 0-3 15v-2c-2 .4-2-1-3-2 0-1-1-1-1-1 1-1 2 1 3 1 1 1 2 0 2 0-2 0-4-1-4-4 0-1 0-2 1-3 0-1 0-2 0-2 2 0 3 1 4 1s2-1 4-1v2c1 1 1 2 1 3 0 3-2 4-4 4 1 0 2 1 2 2v2A8 8 0 0 0 10 2Z" fill="currentColor"/></symbol>
-    <symbol id="i-actions" viewBox="0 0 20 20"><circle cx="4" cy="4" r="2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="16" cy="10" r="2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="4" cy="16" r="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 4h3c5 0 7 2 7 4M6 16h3c5 0 7-2 7-4" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-docker" viewBox="0 0 20 20"><g fill="currentColor"><rect x="2" y="7" width="4" height="4"/><rect x="7" y="7" width="4" height="4"/><rect x="12" y="7" width="4" height="4"/><rect x="7" y="2" width="4" height="4"/><path d="M1 13h18c-1 4-4 6-9 6s-8-2-9-6Z"/></g></symbol>
-    <symbol id="i-package" viewBox="0 0 20 20"><path d="m10 1 8 4-8 4-8-4Zm-8 4v10l8 4 8-4V5M10 9v10" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-linux" viewBox="0 0 20 20"><rect x="2" y="3" width="16" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m5 7 3 3-3 3m5 0h5" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-cycle" viewBox="0 0 20 20"><path d="M16 7a7 7 0 0 0-12-2L2 7m0 0h5M4 13a7 7 0 0 0 12 2l2-2m0 0h-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
-    <symbol id="i-bg" viewBox="0 0 20 20"><circle cx="6" cy="10" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="10" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 10h4" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m5 10 3 3 7-7" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
-    <symbol id="i-tests" viewBox="0 0 20 20"><circle cx="6" cy="10" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="10" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 7v6" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-lint" viewBox="0 0 20 20"><path d="m4 16 9-9 3 3-9 9H4Zm8-10 2-2 3 3-2 2M3 3v4m-2-2h4" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-doc" viewBox="0 0 20 20"><path d="M4 1h8l4 4v14H4Zm8 0v5h4M7 10h6m-6 4h6" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
-    <symbol id="i-reconcile" viewBox="0 0 20 20"><path d="M3 6h13m0 0-3-3m3 3-3 3M17 14H4m0 0 3-3m-3 3 3 3" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
   </defs>
 
-  <rect x="0.5" y="0.5" width="1199" height="709" rx="16" fill="url(#bg)" stroke="#25464c"/>
-  <rect x="-260" width="260" height="710" fill="url(#scan)"><animate attributeName="x" values="-260;1200" dur="10s" repeatCount="indefinite"/></rect>
-  <text class="kicker" x="35" y="34">STACK · DO FUNDAMENTO À PRODUÇÃO</text>
-  <line x1="35" y1="48" x2="1165" y2="48" stroke="#34555a"/>
+  <rect x="0.5" y="0.5" width="1199" height="389" rx="16" fill="url(#bg)" stroke="#25464c"/>
+  <rect x="-260" width="260" height="390" fill="url(#scan)"><animate attributeName="x" values="-260;1200" dur="9s" repeatCount="indefinite"/></rect>
+  <text class="kicker" x="35" y="35">STACK · ORGANIZADA POR RESPONSABILIDADE</text>
+  <line x1="400" y1="58" x2="400" y2="350" stroke="#34555a"/>
+  <line x1="800" y1="58" x2="800" y2="350" stroke="#34555a"/>
 
-  <g><text class="category" x="600" y="78" text-anchor="middle">LINGUAGENS</text>
-    <g transform="translate(282 94)"><rect width="96" height="32" rx="6" fill="#e34f26"/><use href="#i-web" x="8" y="6" width="20" height="20"/><text class="badge" x="34" y="21">HTML5</text></g>
-    <g transform="translate(386 94)"><rect width="82" height="32" rx="6" fill="#1572b6"/><use href="#i-web" x="8" y="6" width="20" height="20"/><text class="badge" x="34" y="21">CSS3</text></g>
-    <g transform="translate(476 94)"><rect width="118" height="32" rx="6" fill="#f7df1e"/><use class="dark-icon" href="#i-codebox" x="8" y="6" width="20" height="20"/><text class="badge-dark" x="34" y="21">JavaScript</text></g>
-    <g transform="translate(602 94)"><rect width="120" height="32" rx="6" fill="#3178c6"/><use href="#i-codebox" x="8" y="6" width="20" height="20"/><text class="badge" x="34" y="21">TypeScript</text></g>
-    <g transform="translate(730 94)"><rect width="84" height="32" rx="6" fill="#ed8b00"/><use href="#i-java" x="7" y="6" width="20" height="20"/><text class="badge" x="32" y="21">Java</text></g>
-    <g transform="translate(822 94)"><rect width="72" height="32" rx="6" fill="#0891b2"/><use href="#i-db" x="7" y="6" width="20" height="20"/><text class="badge" x="34" y="21">SQL</text></g>
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="6s" repeatCount="indefinite"/>
+  <!-- Frontend -->
+  <g transform="translate(0 0)">
+    <text class="area" x="200" y="83" text-anchor="middle">FRONTEND</text>
+
+    <g transform="translate(35 112)">
+      <rect width="48" height="48" rx="11" fill="#102f35" stroke="#61dafb"/>
+      <g transform="translate(24 24)" fill="none" stroke="#61dafb" stroke-width="1.6"><ellipse rx="15" ry="5.5"/><ellipse rx="15" ry="5.5" transform="rotate(60)"/><ellipse rx="15" ry="5.5" transform="rotate(120)"/><circle r="2.5" fill="#61dafb"/></g>
+      <text class="label" x="24" y="66" text-anchor="middle">React</text>
+      <animate attributeName="opacity" values="0.76;1;0.76" dur="4s" begin="0s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(95 112)">
+      <rect width="48" height="48" rx="11" fill="#3178c6"/>
+      <text class="icon" x="24" y="31" text-anchor="middle" fill="#fff">TS</text><text class="label" x="24" y="66" text-anchor="middle">TypeScript</text>
+      <animate attributeName="opacity" values="0.76;1;0.76" dur="4s" begin="0.4s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(155 112)">
+      <rect width="48" height="48" rx="11" fill="#f7df1e"/>
+      <text class="icon" x="24" y="31" text-anchor="middle" fill="#071a1f">JS</text><text class="label" x="24" y="66" text-anchor="middle">JavaScript</text>
+      <animate attributeName="opacity" values="0.76;1;0.76" dur="4s" begin="0.8s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(215 112)">
+      <rect width="48" height="48" rx="11" fill="#24283b" stroke="#a78bfa"/>
+      <path d="M10 12h28L24 39Z" fill="#a78bfa"/><path d="m24 19 8-7-8 20-8 7Z" fill="#f2b84b"/>
+      <text class="label" x="24" y="66" text-anchor="middle">Vite</text>
+      <animate attributeName="opacity" values="0.76;1;0.76" dur="4s" begin="1.2s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(275 112)">
+      <rect width="48" height="48" rx="11" fill="#e34f26"/>
+      <text class="icon" x="24" y="31" text-anchor="middle" fill="#fff">H5</text><text class="label" x="24" y="66" text-anchor="middle">HTML</text>
+      <animate attributeName="opacity" values="0.76;1;0.76" dur="4s" begin="1.6s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(335 112)">
+      <rect width="48" height="48" rx="11" fill="#1572b6"/>
+      <text class="icon" x="24" y="31" text-anchor="middle" fill="#fff">C3</text><text class="label" x="24" y="66" text-anchor="middle">CSS</text>
+      <animate attributeName="opacity" values="0.76;1;0.76" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </g>
+
+    <text class="summary" x="200" y="225" text-anchor="middle">Interfaces responsivas · componentes · estado</text>
+    <text class="summary" x="200" y="245" text-anchor="middle">experiência de uso · design systems</text>
   </g>
 
-  <g><text class="category" x="600" y="168" text-anchor="middle">FRONTEND</text>
-    <g transform="translate(277 184)"><rect width="92" height="32" rx="6" fill="#087ea4"/><use href="#i-react" x="8" y="6" width="20" height="20"/><text class="badge" x="35" y="21">React</text></g>
-    <g transform="translate(377 184)"><rect width="80" height="32" rx="6" fill="#7c3aed"/><use href="#i-bolt" x="8" y="6" width="20" height="20"/><text class="badge" x="34" y="21">Vite</text></g>
-    <g transform="translate(465 184)"><rect width="108" height="32" rx="6" fill="#06b6d4"/><use href="#i-waves" x="8" y="6" width="20" height="20"/><text class="badge" x="34" y="21">Tailwind</text></g>
-    <g transform="translate(581 184)"><rect width="124" height="32" rx="6" fill="#e11d48"/><use href="#i-route" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">React Router</text></g>
-    <g transform="translate(713 184)"><rect width="104" height="32" rx="6" fill="#16a34a"/><use href="#i-chart" x="8" y="6" width="20" height="20"/><text class="badge" x="35" y="21">Recharts</text></g>
-    <g transform="translate(825 184)"><rect width="98" height="32" rx="6" fill="#27272a" stroke="#71717a"/><use href="#i-grid" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">shadcn</text></g>
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="6s" begin="0.7s" repeatCount="indefinite"/>
+  <!-- Backend -->
+  <g transform="translate(400 0)">
+    <text class="area" x="200" y="83" text-anchor="middle">BACKEND &amp; APIs</text>
+
+    <g transform="translate(79 112)">
+      <rect width="54" height="54" rx="12" fill="#102f35" stroke="#5fa04e"/>
+      <path d="M27 8 45 18v20L27 48 9 38V18Z" fill="none" stroke="#5fa04e" stroke-width="2"/><text class="icon" x="27" y="34" text-anchor="middle" fill="#5fa04e">N</text>
+      <text class="label" x="27" y="72" text-anchor="middle">Node.js</text>
+      <animate attributeName="opacity" values="0.76;1;0.76" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(142 112)">
+      <rect width="54" height="54" rx="12" fill="#24283b" stroke="#f3f1e9"/>
+      <text x="27" y="34" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="14" font-weight="800" fill="#f3f1e9">EX</text><text class="label" x="27" y="72" text-anchor="middle">Express</text>
+      <animate attributeName="opacity" values="0.76;1;0.76" dur="4s" begin="1s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(205 112)">
+      <rect width="54" height="54" rx="12" fill="#102f35" stroke="#f2b84b"/>
+      <path d="M15 36h25v5c0 5-6 8-13 8s-12-3-12-8Zm25 2h4c5 0 5 8 0 8h-6M21 31c-6-6 6-8 0-15M30 31c-6-6 6-8 0-15" fill="none" stroke="#f2b84b" stroke-width="1.7"/>
+      <text class="label" x="27" y="72" text-anchor="middle">Java</text>
+      <animate attributeName="opacity" values="0.76;1;0.76" dur="4s" begin="1.5s" repeatCount="indefinite"/>
+    </g>
+    <g transform="translate(268 112)">
+      <rect width="54" height="54" rx="12" fill="#102f35" stroke="#25c4c7"/>
+      <text x="27" y="34" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#25c4c7">{ }</text><text class="label" x="27" y="72" text-anchor="middle">REST</text>
+      <animate attributeName="opacity" values="0.76;1;0.76" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </g>
+
+    <text class="summary" x="200" y="225" text-anchor="middle">Regras de negócio · autenticação · contratos</text>
+    <text class="summary" x="200" y="245" text-anchor="middle">APIs REST · integrações entre sistemas</text>
   </g>
 
-  <g><text class="category" x="600" y="258" text-anchor="middle">BACKEND &amp; APIs</text>
-    <g transform="translate(375 274)"><rect width="100" height="32" rx="6" fill="#3c873a"/><use href="#i-node" x="8" y="6" width="20" height="20"/><text class="badge" x="34" y="21">Node.js</text></g>
-    <g transform="translate(483 274)"><rect width="98" height="32" rx="6" fill="#27272a" stroke="#71717a"/><use href="#i-server" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">Express</text></g>
-    <g transform="translate(589 274)"><rect width="104" height="32" rx="6" fill="#0e7490"/><use href="#i-api" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">REST APIs</text></g>
-    <g transform="translate(701 274)"><rect width="124" height="32" rx="6" fill="#7c3aed"/><use href="#i-function" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">Edge Functions</text></g>
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="6s" begin="1.4s" repeatCount="indefinite"/>
+  <!-- Dados, integrações e entrega -->
+  <g transform="translate(800 0)">
+    <text class="area" x="200" y="83" text-anchor="middle">DADOS · INTEGRAÇÕES · ENTREGA</text>
+
+    <g transform="translate(35 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#3fcf8e"/><path d="m28 8-14 22h12l-4 12 14-23H25Z" fill="#3fcf8e"/><text class="label" x="24" y="66" text-anchor="middle">Supabase</text></g>
+    <g transform="translate(95 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#4169e1"/><text x="24" y="30" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="14" font-weight="800" fill="#7ea1ff">PG</text><text class="label" x="24" y="66" text-anchor="middle">PostgreSQL</text></g>
+    <g transform="translate(155 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#38bdf8"/><ellipse cx="24" cy="14" rx="13" ry="5" fill="none" stroke="#38bdf8" stroke-width="1.7"/><path d="M11 14v21c0 4 6 6 13 6s13-2 13-6V14M11 25c0 4 6 6 13 6s13-2 13-6" fill="none" stroke="#38bdf8" stroke-width="1.7"/><text class="label" x="24" y="66" text-anchor="middle">SQLite</text></g>
+    <g transform="translate(215 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#fb7185"/><text x="24" y="30" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" font-weight="800" fill="#fb7185">ORA</text><text class="label" x="24" y="66" text-anchor="middle">Oracle</text></g>
+    <g transform="translate(275 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#2496ed"/><g fill="#2496ed"><rect x="9" y="18" width="8" height="7"/><rect x="19" y="18" width="8" height="7"/><rect x="29" y="18" width="8" height="7"/><rect x="19" y="9" width="8" height="7"/><path d="M7 28h35c-2 10-8 15-18 15S9 38 7 28Z"/></g><text class="label" x="24" y="66" text-anchor="middle">Docker</text></g>
+    <g transform="translate(335 106)"><rect width="48" height="48" rx="11" fill="#102f35" stroke="#a78bfa"/><g fill="none" stroke="#a78bfa" stroke-width="1.8"><circle cx="15" cy="14" r="5"/><circle cx="34" cy="24" r="5"/><circle cx="15" cy="36" r="5"/><path d="M20 14h5c6 0 9 4 9 8M20 36h5c6 0 9-4 9-8"/></g><text class="label" x="24" y="66" text-anchor="middle">Actions</text></g>
+
+    <g transform="translate(125 198)"><rect width="54" height="54" rx="12" fill="#102f35" stroke="#f05032"/><g fill="none" stroke="#f05032" stroke-width="2"><circle cx="17" cy="15" r="4"/><circle cx="37" cy="28" r="4"/><circle cx="17" cy="41" r="4"/><path d="M21 15h5c8 0 11 5 11 9M21 41h5c8 0 11-5 11-9"/></g><text class="label" x="27" y="72" text-anchor="middle">Git</text></g>
+    <g transform="translate(188 198)"><rect width="54" height="54" rx="12" fill="#102f35" stroke="#f2b84b"/><rect x="16" y="26" width="22" height="18" rx="4" fill="none" stroke="#f2b84b" stroke-width="2"/><path d="M20 26v-5a7 7 0 0 1 14 0v5" fill="none" stroke="#f2b84b" stroke-width="2"/><text class="label" x="27" y="72" text-anchor="middle">SSO/OIDC</text></g>
+    <g transform="translate(251 198)"><rect width="54" height="54" rx="12" fill="#102f35" stroke="#4ade80"/><path d="m14 28 8 8 18-19" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round"/><text class="label" x="27" y="72" text-anchor="middle">Testes</text></g>
+
+    <text class="summary" x="200" y="310" text-anchor="middle">SQL · ERP · CI/CD · containers · identidade</text>
+    <text class="summary" x="200" y="330" text-anchor="middle">dados confiáveis até a produção</text>
   </g>
 
-  <g><text class="category" x="600" y="348" text-anchor="middle">BANCOS DE DADOS &amp; SERVIÇOS</text>
-    <g transform="translate(316 364)"><rect width="112" height="32" rx="6" fill="#16a76a"/><use href="#i-bolt" x="8" y="6" width="20" height="20"/><text class="badge" x="34" y="21">Supabase</text></g>
-    <g transform="translate(436 364)"><rect width="126" height="32" rx="6" fill="#336791"/><use href="#i-db" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">PostgreSQL</text></g>
-    <g transform="translate(570 364)"><rect width="90" height="32" rx="6" fill="#0f80cc"/><use href="#i-db" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">SQLite</text></g>
-    <g transform="translate(668 364)"><rect width="88" height="32" rx="6" fill="#c74634"/><use href="#i-db" x="8" y="6" width="20" height="20"/><text class="badge" x="34" y="21">Oracle</text></g>
-    <g transform="translate(764 364)"><rect width="120" height="32" rx="6" fill="#f2b84b"/><use class="dark-icon" href="#i-erp" x="8" y="6" width="20" height="20"/><text class="badge-dark" x="36" y="21">FoccoERP</text></g>
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="6s" begin="2.1s" repeatCount="indefinite"/>
-  </g>
-
-  <g><text class="category" x="600" y="438" text-anchor="middle">INTEGRAÇÕES &amp; SEGURANÇA</text>
-    <g transform="translate(305 454)"><rect width="108" height="32" rx="6" fill="#0891b2"/><use href="#i-link" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">FoccoAPI</text></g>
-    <g transform="translate(421 454)"><rect width="76" height="32" rx="6" fill="#db2777"/><use href="#i-lock" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">SSO</text></g>
-    <g transform="translate(505 454)"><rect width="78" height="32" rx="6" fill="#7c3aed"/><use href="#i-id" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">OIDC</text></g>
-    <g transform="translate(591 454)"><rect width="82" height="32" rx="6" fill="#2563eb"/><use href="#i-shield" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">RBAC</text></g>
-    <g transform="translate(681 454)"><rect width="100" height="32" rx="6" fill="#16a34a"/><use href="#i-eye" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">Read-only</text></g>
-    <g transform="translate(789 454)"><rect width="106" height="32" rx="6" fill="#475569"/><use href="#i-bridge" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">Proxy/Bridge</text></g>
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="6s" begin="2.8s" repeatCount="indefinite"/>
-  </g>
-
-  <g><text class="category" x="600" y="528" text-anchor="middle">FERRAMENTAS &amp; DEVOPS</text>
-    <g transform="translate(184 544)"><rect width="74" height="32" rx="6" fill="#f05032"/><use href="#i-git" x="8" y="6" width="20" height="20"/><text class="badge" x="34" y="21">Git</text></g>
-    <g transform="translate(266 544)"><rect width="92" height="32" rx="6" fill="#24292f" stroke="#71717a"/><use href="#i-github" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">GitHub</text></g>
-    <g transform="translate(366 544)"><rect width="122" height="32" rx="6" fill="#6f42c1"/><use href="#i-actions" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">GitHub Actions</text></g>
-    <g transform="translate(496 544)"><rect width="94" height="32" rx="6" fill="#2496ed"/><use href="#i-docker" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">Docker</text></g>
-    <g transform="translate(598 544)"><rect width="86" height="32" rx="6" fill="#0e7490"/><use href="#i-package" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">GHCR</text></g>
-    <g transform="translate(692 544)"><rect width="82" height="32" rx="6" fill="#f2b84b"/><use class="dark-icon" href="#i-linux" x="8" y="6" width="20" height="20"/><text class="badge-dark" x="36" y="21">Linux</text></g>
-    <g transform="translate(782 544)"><rect width="78" height="32" rx="6" fill="#16a34a"/><use href="#i-cycle" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">CI/CD</text></g>
-    <g transform="translate(868 544)"><rect width="126" height="32" rx="6" fill="#0891b2"/><use href="#i-bg" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">Blue-green</text></g>
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="6s" begin="3.5s" repeatCount="indefinite"/>
-  </g>
-
-  <g><text class="category" x="600" y="618" text-anchor="middle">TESTES &amp; QUALIDADE</text>
-    <g transform="translate(245 634)"><rect width="142" height="32" rx="6" fill="#16a34a"/><use href="#i-check" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">Testes automatizados</text></g>
-    <g transform="translate(395 634)"><rect width="144" height="32" rx="6" fill="#2563eb"/><use href="#i-tests" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">Testes de integração</text></g>
-    <g transform="translate(547 634)"><rect width="82" height="32" rx="6" fill="#7c3aed"/><use href="#i-lint" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">Lint</text></g>
-    <g transform="translate(637 634)"><rect width="104" height="32" rx="6" fill="#db2777"/><use href="#i-doc" x="8" y="6" width="20" height="20"/><text class="badge" x="36" y="21">Contratos</text></g>
-    <g transform="translate(749 634)"><rect width="126" height="32" rx="6" fill="#f2b84b"/><use class="dark-icon" href="#i-reconcile" x="8" y="6" width="20" height="20"/><text class="badge-dark" x="36" y="21">Reconciliação</text></g>
-    <animate attributeName="opacity" values="0.8;1;0.8" dur="6s" begin="4.2s" repeatCount="indefinite"/>
-  </g>
-
-  <path d="M35 686 H1165" stroke="#34555a" stroke-width="1.5"/>
-  <circle r="4" fill="#f2b84b"><animateMotion path="M35 686 H1165" dur="8s" repeatCount="indefinite"/></circle>
+  <path d="M35 360 H1165" stroke="#34555a" stroke-width="1.5"/>
+  <circle r="4" fill="#f2b84b"><animateMotion path="M35 360 H1165" dur="7s" repeatCount="indefinite"/></circle>
 </svg>
