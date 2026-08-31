@@ -95,22 +95,18 @@ Participei da construção e evolução de uma plataforma interna de atendimento
 
 `React` `TypeScript` `Node.js` `Express` `Supabase` `Docker`
 
-## 🤝 Contribuições em colaboração
+## Outras participações no ecossistema
 
-Nem sempre fui o responsável principal pelo produto — e considero importante mostrar isso com clareza. Também cresci entrando em sistemas existentes, entendendo decisões de outras pessoas e contribuindo em pontos específicos para que a equipe avançasse.
+Nem sempre fui o responsável principal pelo produto. Também contribuí em sistemas existentes, entendendo o contexto da equipe e entregando melhorias específicas.
 
-<img width="100%" src="assets/collaboration-cards.svg" alt="Projetos da Flexibase em que Icaro contribuiu como colaborador" />
-
-| Sistema | Como participei | Natureza da contribuição |
-|---|---|---|
-| **PDF** | Apoiei a integração ao SSO, a preparação para deploy blue-green, a documentação de produção e ajustes de interface | Identidade, publicação e consistência visual |
-| **SGE** | Contribuí na preparação para produção, no pipeline do GitHub Actions e em correções relacionadas ao ambiente Supabase | CI/CD, ambiente e estabilidade |
-| **TPM** | Participei da evolução do painel de solicitações de manutenção e da documentação necessária para publicação | Interface, operação e deploy |
-| **CDT** | Atuei em correções de estabilidade do frontend e no fluxo de conclusão de tarefas | Manutenção e regras de interação |
-| **SSO** | Colaborei em uma iniciativa de acesso e provisionamento automático para aplicações do ecossistema | Identidade e controle de acesso |
-| **MKTMAIL** | Apoiei a adequação do sistema interno ao padrão de publicação blue-green da Flexibase | Containers, GHCR e infraestrutura |
-
-Essas participações desenvolveram uma habilidade diferente da construção de um produto próprio: **ler contexto rapidamente, respeitar a arquitetura existente e entregar uma melhoria localizada sem desorganizar o restante do sistema**.
+| Sistema | Contexto da minha participação |
+|---|---|
+| **PDF** | Integração ao SSO, preparação para deploy blue-green, documentação de produção e alinhamento de interface |
+| **SGE** | Pipeline de publicação, preparação para produção e correções relacionadas ao ambiente Supabase |
+| **TPM** | Evolução do painel de solicitações de manutenção e apoio ao processo de publicação |
+| **CDT** | Correções de estabilidade no frontend e em fluxos de conclusão de tarefas |
+| **SSO** | Participação em iniciativas de acesso e provisionamento dentro do ecossistema corporativo |
+| **MKTMAIL** | Preparação do sistema interno para o padrão de publicação da infraestrutura Flexibase |
 
 ## 🧪 Projetos pessoais
 
