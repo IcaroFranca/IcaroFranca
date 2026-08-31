@@ -12,7 +12,7 @@ Desenvolvedor júnior com experiência prática em **produtos internos, dashboar
 
 ---
 
-## Minha trajetória, em contexto
+## 🧭 Minha trajetória, em contexto
 
 Não comecei por uma stack pronta. Comecei entendendo a base e fui adicionando camadas: páginas estáticas, JavaScript, consumo de APIs, componentes React, sistemas Java e, depois, produtos corporativos conectados a dados reais.
 
@@ -25,19 +25,19 @@ Não comecei por uma stack pronta. Comecei entendendo a base e fui adicionando c
 
 Hoje conduzo minha evolução profissional conectando **interface, regra de negócio, dados e entrega**. Meu grau de senioridade é júnior; minha responsabilidade, porém, já inclui acompanhar problemas do entendimento até a produção.
 
-### Formação que sustenta essa evolução
+### 🎓 Formação que sustenta essa evolução
 
 - **Tecnologia em Big Data e Inteligência Artificial** — PUC Goiás, 2023–2025, conclusão *magna cum laude*.
 - Formação complementar em **Git, SQL, lógica de programação e Java orientado a objetos**.
 - **Inglês avançado** para leitura técnica e comunicação profissional.
 
-## Produtos e integrações na Flexibase
+## 🏢 Produtos e integrações na Flexibase
 
 > Os repositórios corporativos são privados. As descrições abaixo apresentam minha participação e o contexto técnico sem expor código, credenciais, dados ou regras sensíveis da empresa.
 
 <img width="100%" src="assets/ecosystem-map.svg" alt="Mapa das contribuições de Ícaro no ecossistema de sistemas da Flexibase" />
 
-### DASH — indicadores que podem ser investigados
+### 📊 DASH — indicadores que podem ser investigados
 
 O DASH é uma plataforma de dashboards variáveis. Minha contribuição foi especialmente forte na experiência financeira e na transformação de números isolados em indicadores que podem ser conferidos, explicados e acompanhados.
 
@@ -52,7 +52,7 @@ O DASH é uma plataforma de dashboards variáveis. Minha contribuição foi espe
 
 `React 19` `TypeScript` `Vite` `Supabase` `Auditoria` `Dados financeiros`
 
-### FoccoAPI — o ERP como fonte, sem acoplamento direto
+### 🔗 FoccoAPI — o ERP como fonte, sem acoplamento direto
 
 Minha principal contribuição relacionada à FoccoAPI está no **uso da API como camada de integração**. Em vez de colocar regras e consultas ao ERP dentro de cada tela, trabalhei com contratos read-only que permitem ao DASH e ao SGQ consumir dados corporativos de maneira mais segura e previsível.
 
@@ -67,7 +67,7 @@ Minha principal contribuição relacionada à FoccoAPI está no **uso da API com
 
 `TypeScript` `REST` `Oracle` `Read-only` `Contratos` `Integração ERP`
 
-### SGQ — qualidade e manutenção em um fluxo contínuo
+### 🧭 SGQ — qualidade e manutenção em um fluxo contínuo
 
 No Sistema de Gestão da Qualidade, participei de uma evolução ampla do produto. O sistema reúne ocorrências, não conformidades, manutenções de clientes, controle documental, certificações, processos, POPs, auditorias e painéis operacionais.
 
@@ -81,7 +81,7 @@ No Sistema de Gestão da Qualidade, participei de uma evolução ampla do produt
 
 `React 19` `TypeScript` `Node.js` `Express` `SQLite` `SSO` `RBAC`
 
-### Portal de Chamados — atendimento configurável por área
+### 🎫 Portal de Chamados — atendimento configurável por área
 
 Participei da construção e evolução de uma plataforma interna de atendimento, criada para substituir fluxos fragmentados por solicitações rastreáveis e configuráveis por departamento.
 
@@ -111,11 +111,11 @@ Participei da construção e evolução de uma plataforma interna de atendimento
 
 </details>
 
-## Projetos pessoais
+## 🧪 Projetos pessoais
 
 Meus projetos públicos não competem com a experiência corporativa: eles mostram **como cheguei até ela** e onde continuo experimentando com liberdade.
 
-### [NexusRPG](https://github.com/IcaroFranca/PluginRPGMinecraft)
+### ⚔️ [NexusRPG](https://github.com/IcaroFranca/PluginRPGMinecraft)
 
 Plugin modular de RPG para servidores Paper/Spigot. É o projeto pessoal em que mais exercitei organização de domínio e regras de negócio.
 
@@ -126,31 +126,33 @@ Plugin modular de RPG para servidores Paper/Spigot. É o projeto pessoal em que 
 
 `Java` `Maven` `Paper API` `Spigot` `CI`
 
-### [React Commerce](https://github.com/IcaroFranca/ProjetoReactCommerce)
+### 🛒 [React Commerce](https://github.com/IcaroFranca/ProjetoReactCommerce)
 
 Experiência de e-commerce criada para aprofundar componentes reutilizáveis, estados de interface, TypeScript e responsividade.
 
 `React 19` `TypeScript` `Vite` `CSS`
 
-### [Busca CEP](https://github.com/IcaroFranca/ProjetoBuscaCEP)
+### 📍 [Busca CEP](https://github.com/IcaroFranca/ProjetoBuscaCEP)
 
 Aplicação de consulta de endereços que marcou minha evolução no consumo de APIs e na separação entre modelos, serviços e controllers.
 
 `JavaScript` `REST API` `HTML` `CSS`
 
-### [Icarus Recipes](https://icarofranca.github.io/ProjetoReceitas)
+### 🍲 [Icarus Recipes](https://icarofranca.github.io/ProjetoReceitas)
 
 Site editorial de receitas publicado no GitHub Pages. Consolidou fundamentos de semântica, composição visual e responsividade.
 
 `HTML` `CSS` `GitHub Pages`
 
-### [Currículo HTML](https://github.com/IcaroFranca/ProjetoCurriculoHTML)
+### 📄 [Currículo HTML](https://github.com/IcaroFranca/ProjetoCurriculoHTML)
 
 Um currículo semântico, publicável e legível por pessoas e ferramentas de seleção. Foi um dos primeiros passos conscientes da minha presença profissional na web.
 
 `HTML` `Semântica` `SEO` `ATS`
 
-## Tecnologias, pelo papel que cumprem
+## 🧰 Tecnologias, pelo papel que cumprem
+
+<img width="100%" src="assets/technology-loop.svg" alt="Tecnologias utilizadas por Icaro, organizadas entre interface, APIs, dados e entrega" />
 
 | Camada | Ferramentas e conhecimentos |
 |---|---|
@@ -160,7 +162,7 @@ Um currículo semântico, publicável e legível por pessoas e ferramentas de se
 | **Identidade e segurança** | SSO, OIDC, RBAC e contratos read-only |
 | **Entrega e operação** | Git, GitHub Actions, Docker, GHCR, testes e deploy blue-green |
 
-## O que procuro desenvolver agora
+## 🎯 O que procuro desenvolver agora
 
 - Aprofundar arquitetura backend e modelagem de dados.
 - Tornar integrações e indicadores cada vez mais observáveis e testáveis.

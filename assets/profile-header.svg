@@ -6,6 +6,11 @@
       <stop offset="0" stop-color="#071a1f"/>
       <stop offset="1" stop-color="#0b252b"/>
     </linearGradient>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop offset="0" stop-color="#25c4c7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#25c4c7" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#25c4c7" stop-opacity="0"/>
+    </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#25c4c7" stroke-opacity="0.07"/>
     </pattern>
@@ -20,6 +25,9 @@
   </defs>
   <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
   <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <rect x="-260" y="0" width="260" height="320" fill="url(#scan)">
+    <animate attributeName="x" values="-260;1200" dur="7s" repeatCount="indefinite"/>
+  </rect>
   <path d="M0 265 C155 190 250 370 430 246" fill="none" stroke="#25c4c7" stroke-opacity="0.32" stroke-width="1.5"/>
   <path d="M0 288 C164 216 262 380 444 260" fill="none" stroke="#f2b84b" stroke-opacity="0.56" stroke-width="1.5" stroke-dasharray="7 9"/>
 
@@ -27,6 +35,10 @@
     <path d="M0 10 Q0 0 10 0 H74 L94 20 V84 Q94 94 84 94 H10 Q0 94 0 84 Z" fill="none" stroke="#25c4c7" stroke-width="2"/>
     <path d="M74 0 V20 H94" fill="none" stroke="#25c4c7" stroke-width="2"/>
     <text x="47" y="63" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="40" font-weight="300" fill="#25c4c7">IF</text>
+    <circle cx="82" cy="82" r="4" fill="#f2b84b">
+      <animate attributeName="r" values="3;6;3" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
   <g transform="translate(185 70)">
@@ -41,6 +53,12 @@
     <path d="M68 55 H148 M148 55 V130 M148 130 H68 M148 130 H228" fill="none" stroke="#5e7c7e" stroke-width="1.5"/>
     <circle cx="148" cy="55" r="4" fill="#f2b84b"/>
     <circle cx="148" cy="130" r="4" fill="#25c4c7"/>
+    <circle r="3.5" fill="#25c4c7">
+      <animateMotion path="M68 55 H148 V130 H228" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#f2b84b">
+      <animateMotion path="M68 130 H148 V55" dur="3.8s" begin="1.1s" repeatCount="indefinite"/>
+    </circle>
 
     <g transform="translate(0 28)">
       <rect width="86" height="55" rx="8" fill="#0e3037" stroke="#25c4c7" stroke-opacity="0.55"/>
@@ -59,6 +77,10 @@
     </g>
     <g transform="translate(105 102)">
       <circle cx="43" cy="28" r="34" fill="#071a1f" stroke="#f2b84b" stroke-width="1.5"/>
+      <circle cx="43" cy="28" r="34" fill="none" stroke="#f2b84b" stroke-width="1">
+        <animate attributeName="r" values="34;43;34" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.65;0;0.65" dur="3s" repeatCount="indefinite"/>
+      </circle>
       <text x="43" y="24" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="16" font-weight="700" fill="#f3f1e9">PRODUTO</text>
       <text x="43" y="41" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="9" fill="#8ba4a6">EM PRODUÇÃO</text>
     </g>

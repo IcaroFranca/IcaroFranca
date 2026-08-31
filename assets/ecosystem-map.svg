@@ -26,6 +26,20 @@
     <path d="M600 220 C700 220 722 159 818 159"/>
     <path d="M600 220 C700 220 722 298 818 298"/>
   </g>
+  <g>
+    <circle r="4" fill="#25c4c7">
+      <animateMotion path="M382 159 C478 159 500 220 600 220" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#25c4c7">
+      <animateMotion path="M382 298 C478 298 500 220 600 220" dur="3.7s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#f2b84b">
+      <animateMotion path="M600 220 C700 220 722 159 818 159" dur="3.4s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#f2b84b">
+      <animateMotion path="M600 220 C700 220 722 298 818 298" dur="3.9s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
   <g fill="none" stroke="#f2b84b" stroke-opacity="0.55" stroke-dasharray="5 7">
     <path d="M270 159 C210 159 210 370 130 370"/>
     <path d="M270 298 C230 298 230 370 310 370"/>
@@ -36,6 +50,10 @@
   <g transform="translate(525 145)">
     <rect width="150" height="150" rx="75" fill="#0b3037" stroke="#25c4c7" stroke-width="2"/>
     <circle cx="75" cy="75" r="56" fill="none" stroke="#25c4c7" stroke-opacity="0.24"/>
+    <circle cx="75" cy="75" r="62" fill="none" stroke="#25c4c7" stroke-width="1">
+      <animate attributeName="r" values="58;72;58" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
     <text x="75" y="68" text-anchor="middle" font-family="Segoe UI, Ubuntu, sans-serif" font-size="34" font-weight="300" fill="#25c4c7">IF</text>
     <text class="small" x="75" y="91" text-anchor="middle">produto + código</text>
   </g>

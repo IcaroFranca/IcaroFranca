@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">Tecnologias no fluxo de entrega</title>
+  <desc id="desc">React, TypeScript, Node.js, Java, bancos de dados, Docker e GitHub Actions organizados do produto à produção</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#071a1f"/>
+      <stop offset="0.5" stop-color="#0d282e"/>
+      <stop offset="1" stop-color="#071a1f"/>
+    </linearGradient>
+    <style>
+      .kicker { font: 600 11px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 2px; fill: #86a1a4; }
+      .name { font: 700 14px 'Segoe UI', Ubuntu, sans-serif; fill: #f3f1e9; }
+      .role { font: 400 10px 'Segoe UI', Ubuntu, sans-serif; fill: #8ba4a6; }
+      .symbol { font: 800 22px 'Segoe UI', Ubuntu, sans-serif; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="219" rx="16" fill="url(#bg)" stroke="#25464c"/>
+  <text class="kicker" x="38" y="38">DA INTERFACE À PRODUÇÃO</text>
+  <path d="M70 172 H1130" fill="none" stroke="#34555a" stroke-width="2"/>
+  <circle r="5" fill="#f2b84b">
+    <animateMotion path="M70 172 H1130" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#25c4c7">
+    <animateMotion path="M70 172 H1130" dur="6s" begin="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <g transform="translate(55 61)">
+    <rect width="140" height="82" rx="12" fill="#102f35" stroke="#61dafb"/>
+    <g transform="translate(35 39)" fill="none" stroke="#61dafb" stroke-width="2">
+      <ellipse rx="19" ry="7"/><ellipse rx="19" ry="7" transform="rotate(60)"/><ellipse rx="19" ry="7" transform="rotate(120)"/><circle r="3" fill="#61dafb"/>
+    </g>
+    <text class="name" x="66" y="35">React</text><text class="role" x="66" y="54">interfaces</text>
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="4s" begin="0s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(215 61)">
+    <rect width="140" height="82" rx="12" fill="#102f35" stroke="#3178c6"/>
+    <rect x="17" y="20" width="38" height="38" rx="5" fill="#3178c6"/><text x="36" y="47" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="18" font-weight="800" fill="#fff">TS</text>
+    <text class="name" x="66" y="35">TypeScript</text><text class="role" x="66" y="54">contratos</text>
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(375 61)">
+    <rect width="140" height="82" rx="12" fill="#102f35" stroke="#5fa04e"/>
+    <path d="M36 18 55 29v22L36 62 17 51V29Z" fill="none" stroke="#5fa04e" stroke-width="2"/><text class="symbol" x="36" y="48" text-anchor="middle" fill="#5fa04e">N</text>
+    <text class="name" x="66" y="35">Node.js</text><text class="role" x="66" y="54">APIs</text>
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="4s" begin="1s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(535 61)">
+    <rect width="140" height="82" rx="12" fill="#102f35" stroke="#f2b84b"/>
+    <path d="M20 48h34v7c0 7-8 10-17 10s-17-3-17-10Zm34 3h5c7 0 7 10 0 10h-8" fill="none" stroke="#f2b84b" stroke-width="2"/>
+    <path d="M28 41c-8-8 8-10 0-18M40 41c-8-8 8-10 0-18" fill="none" stroke="#ed8b00" stroke-width="2"/>
+    <text class="name" x="70" y="35">Java</text><text class="role" x="70" y="54">domínios</text>
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="4s" begin="1.5s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(695 61)">
+    <rect width="140" height="82" rx="12" fill="#102f35" stroke="#3fcf8e"/>
+    <ellipse cx="36" cy="24" rx="19" ry="8" fill="none" stroke="#3fcf8e" stroke-width="2"/><path d="M17 24v31c0 5 9 8 19 8s19-3 19-8V24M17 39c0 5 9 8 19 8s19-3 19-8" fill="none" stroke="#3fcf8e" stroke-width="2"/>
+    <text class="name" x="66" y="35">Dados</text><text class="role" x="66" y="54">SQL · Oracle</text>
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="4s" begin="2s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(855 61)">
+    <rect width="140" height="82" rx="12" fill="#102f35" stroke="#2496ed"/>
+    <g fill="#2496ed"><rect x="17" y="29" width="10" height="9"/><rect x="29" y="29" width="10" height="9"/><rect x="41" y="29" width="10" height="9"/><rect x="29" y="18" width="10" height="9"/><path d="M14 41h43c-2 13-10 20-23 20-11 0-18-6-20-20Z"/></g>
+    <text class="name" x="67" y="35">Docker</text><text class="role" x="67" y="54">containers</text>
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="4s" begin="2.5s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(1015 61)">
+    <rect width="140" height="82" rx="12" fill="#102f35" stroke="#a78bfa"/>
+    <g fill="none" stroke="#a78bfa" stroke-width="2"><circle cx="25" cy="24" r="6"/><circle cx="48" cy="41" r="6"/><circle cx="25" cy="58" r="6"/><path d="M31 24h8c7 0 9 5 9 11M31 58h8c7 0 9-5 9-11"/></g>
+    <text class="name" x="66" y="35">Actions</text><text class="role" x="66" y="54">CI/CD</text>
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="4s" begin="3s" repeatCount="indefinite"/>
+  </g>
+
+  <g fill="#25c4c7">
+    <circle cx="70" cy="172" r="4"/><circle cx="1130" cy="172" r="4"/>
+  </g>
+  <text x="70" y="199" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8ba4a6">IDEIA</text>
+  <text x="1130" y="199" text-anchor="end" font-family="Segoe UI, Ubuntu, sans-serif" font-size="10" fill="#8ba4a6">PRODUÇÃO</text>
+</svg>
