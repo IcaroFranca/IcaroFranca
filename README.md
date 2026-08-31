@@ -19,7 +19,7 @@ Desenvolvedor júnior com experiência prática em **produtos internos, dashboar
 
 ## 🧰 Tecnologias por área
 
-<img width="100%" src="assets/stack-by-area.svg" alt="Stack de Icaro dividida entre frontend, backend e APIs, dados, integrações e entrega" />
+<img width="100%" src="assets/stack-overview.svg" alt="Stack de Icaro dividida entre frontend, backend e APIs, dados, integrações e entrega" />
 
 ## 🏢 Experiência na indústria
 
