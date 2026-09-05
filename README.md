@@ -71,7 +71,7 @@ Participei da construção de templates configuráveis, campos condicionais, das
 
 | Projeto | O que representa na minha evolução |
 |---|---|
-| ⚔️ **[NexusRPG](https://github.com/IcaroFranca/PluginRPGMinecraft)** | Sistema modular em Java com combate, habilidades, economia, internacionalização e CI |
+| ⚔️ **[IcarusRPG](https://github.com/IcaroFranca/IcarusRPG)** | Sistema modular em Java com combate, habilidades, economia, internacionalização e CI |
 | 🛒 **[React Commerce](https://github.com/IcaroFranca/ProjetoReactCommerce)** | Componentes reutilizáveis, TypeScript, estado e responsividade |
 | 📍 **[Busca CEP](https://github.com/IcaroFranca/ProjetoBuscaCEP)** | Consumo de API e separação entre models, services e controllers |
 | 🍲 **[Icarus Recipes](https://icarofranca.github.io/ProjetoReceitas)** | Semântica, composição visual, CSS e GitHub Pages |
